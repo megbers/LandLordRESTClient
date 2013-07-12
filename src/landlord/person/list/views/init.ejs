@@ -1,0 +1,5 @@
+<%for(var i = 0; i < this.length ; i++){%>
+	<li <%= this[i]%>>
+		<%== $.View('//landlord/person/list/views/person.ejs', this[i] )%>
+	</li>
+<%}%>

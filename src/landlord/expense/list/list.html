@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Landlord.Expense.List Demo</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Landlord.Expense.List Demo</h1>
+		<ul id='expenses'></ul>
+		<a href='javascript://' id='create'>Create Expense</a>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('landlord/expense/list','landlord/fixtures',function(){
+				
+				$('#expenses').landlord_expense_list();
+				
+				$('#create').click(function(){
+					new Landlord.Models.Expense({
+						name: "Grilled Cheese",
+						description: "Bread and Cheese"
+					}).save();
+				})
+			})
+		</script>
+	</body>
+</html>

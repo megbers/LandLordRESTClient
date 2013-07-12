@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Landlord.Person.Create</title>
+        <style type='text/css'>
+            body {font-family: verdana}
+        </style>
+	</head>
+	<body>
+	    <h1>Landlord.Person.Create Demo</h1>
+		<form id='create' action=''></form>
+		<div id='people'></div>
+		<script type='text/javascript' 
+                src='../../../steal/steal.js'>
+        </script>
+		<script type='text/javascript'>
+			steal('landlord/person/create','landlord/fixtures',function(){
+				
+				$('#create').landlord_person_create();
+				Landlord.Models.Person.bind('created', function(ev, person){
+					$('<div>').html("<h3>"+person.name+"</h3><p>"+person.description+"</p>")
+					        .appendTo( $('#people') )
+				})
+				
+			})
+		</script>
+	</body>
+</html>
