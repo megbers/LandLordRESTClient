@@ -1,10 +1,10 @@
 steal( 'jquery/controller',
 	   'jquery/view/ejs',
 	   'jquery/controller/view',
-	   'landlord/models' )
+	   'landlord/models')
 .then( './views/init.ejs', 
        './views/property.ejs', 
-       function($){
+function($){
 
 /**
  * @class Landlord.Property.List
@@ -27,6 +27,11 @@ $.Controller('Landlord.Property.List',
 			el.closest('.property').model().destroy();
 		}
 	},
+    '.addressHeader click':function(el) {
+        console.log('address clicked');
+        var property = el.closest('.property').model();
+        $('applicationContainer').landlord_property_show({property: property});
+    },
 	"{Landlord.Models.Property} destroyed" : function(Property, ev, property) {
 		property.elements(this.element).remove();
 	},

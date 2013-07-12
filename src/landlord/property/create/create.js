@@ -15,7 +15,7 @@ $.Controller('Landlord.Property.Create',
 /** @Prototype */
 {
 	init : function(){
-		this.element.html(this.view());
+		this.element.html(this.view('init', Landlord.Models.Person.findAll()));
 	},
 	submit : function(el, ev){
 		ev.preventDefault();

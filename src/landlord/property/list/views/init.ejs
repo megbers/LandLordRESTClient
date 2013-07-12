@@ -1,5 +1,7 @@
+<ul id="properties">
 <%for(var i = 0; i < this.length ; i++){%>
 	<li <%= this[i]%>>
 		<%== $.View('//landlord/property/list/views/property.ejs', this[i] )%>
 	</li>
 <%}%>
+</ul>

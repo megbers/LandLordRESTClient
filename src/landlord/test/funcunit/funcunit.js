@@ -1,2 +1,2 @@
-steal("funcunit", 'landlord/user/create/create_test.js', 'landlord/user/list/list_test.js', 'landlord/property/create/create_test.js', 'landlord/property/list/list_test.js')
+steal("funcunit", 'landlord/user/create/create_test.js', 'landlord/user/list/list_test.js', 'landlord/property/create/create_test.js', 'landlord/property/list/list_test.js', 'landlord/person/create/create_test.js', 'landlord/person/list/list_test.js', 'landlord/expense/create/create_test.js', 'landlord/expense/list/list_test.js')
  .then("./landlord_test.js");
