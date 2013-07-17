@@ -20,17 +20,24 @@ $.Controller('Landlord.Property.List',
 /** @Prototype */
 {
 	init : function(){
-		this.element.html(this.view('init',Landlord.Models.Property.findAll()) )
+		//this.element.html(this.view('init',Landlord.Models.Property.findAll()) )
+        this.update();
 	},
-	'.destroy click': function( el ){
+    update:function() {
+        this.element.html(this.view('init',Landlord.Models.Property.findAll()) )
+    },
+	'.destroyProperty click': function( el ){
 		if(confirm("Are you sure you want to destroy?")){
 			el.closest('.property').model().destroy();
 		}
 	},
     '.addressHeader click':function(el) {
-        console.log('address clicked');
         var property = el.closest('.property').model();
-        $('applicationContainer').landlord_property_show({property: property});
+        console.log(property);
+        $('#applicationContainer').landlord_property_show({property: property});
+    },
+    '#createPropertyButton click':function(el, ev) {
+        $('#applicationContainer').landlord_property_create();
     },
 	"{Landlord.Models.Property} destroyed" : function(Property, ev, property) {
 		property.elements(this.element).remove();

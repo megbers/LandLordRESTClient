@@ -15,14 +15,17 @@ steal( 'jquery/controller',
             /** @Prototype */
             {
                 init : function(){
-                    console.log('init show property');
-                    console.log(this.options.property);
-                    this.element.html(this.view('init', this.options.property));
+                    this.update();
                 },
 
-                '.closeButton click': function(element, event) {
-                    //TODO GO BACK TO LIST VIEW
-                    console.log(element, event);
+                update : function(options) {
+                    this.options.property = options && options.property ? options.property : this.options.property;
+                    this.element.html(this.view('init', this.options.property));
+                    $('#propertyExpenseList').landlord_expense_list();
+                },
+
+                '#backToPropertyListButton click': function(element, event) {
+                    $('#applicationContainer').landlord_property_list();
                 }
             })
 

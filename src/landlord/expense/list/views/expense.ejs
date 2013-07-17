@@ -1,2 +1,15 @@
-<h3><%= name %> <a href='javascript://' class='destroy'>X</a></h3>
-<p><%= description %></p>
+<p>
+    <% if(typeof amountTotal !== 'undefined') {%>
+        <%= amountTotal %>
+    <%}%>
+    |
+    <% if(typeof amountPaid !== 'undefined') {%>
+        <%= amountPaid %>
+    <%}%>
+    |
+    <% if(typeof dueDate !== 'undefined') {%>
+        <%= dueDate %>
+    <%}%>
+    |
+    <a href='javascript://' class='destroyExpense'>X</a>
+</p>

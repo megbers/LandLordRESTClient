@@ -25,7 +25,7 @@ $.Model('Landlord.Models.Property',
         })
     },
 
-    destroy: '/LandLordWebServices/properties',
+    destroy: "/LandLordWebServices/properties",
     update : "/LandLordWebServices/properties"
 },
 /* @Prototype */

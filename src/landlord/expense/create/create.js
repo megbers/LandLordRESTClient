@@ -17,14 +17,13 @@ $.Controller('Landlord.Expense.Create',
 	init : function(){
 		this.element.html(this.view());
 	},
-	submit : function(el, ev){
-		ev.preventDefault();
-		this.element.find('[type=submit]').val('Creating...')
-		new Landlord.Models.Expense(el.formParams()).save(this.callback('saved'));
-	},
+    '#createExpense click': function(el, ev) {
+        ev.preventDefault();
+        this.element.find('[type=submit]').val('Creating...');
+        new Landlord.Models.Expense(el.formParams()).save(this.callback('saved'));
+    },
 	saved : function(){
-		this.element.find('[type=submit]').val('Create');
-		this.element[0].reset()
+		//TODO Go Back To Property
 	}
 })
 

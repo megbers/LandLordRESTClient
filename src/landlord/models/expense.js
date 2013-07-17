@@ -9,11 +9,36 @@ steal('jquery/model', function(){
 $.Model('Landlord.Models.Expense',
 /* @Static */
 {
-	findAll: "/expenses.json",
-  	findOne : "/expenses/{id}.json", 
-  	create : "/expenses.json",
- 	update : "/expenses/{id}.json",
-  	destroy : "/expenses/{id}.json"
+    findAll: "/LandLordWebServices/expense/findAll",
+    findOne: "/LandLordWebServices/expense/find/{id}",
+
+    findByProperty: function(params, success, error) {
+        $.ajax({
+            url: '/LandLordWebServices/expense/findByProperty/' + params.propertyId,
+            type: 'GET',
+            dataType: 'json',
+            contentType: 'application/json',
+            success: this.proxy([success]),
+            error: error,
+            fixture: false
+        });
+    },
+
+    create: function(params, success, error) {
+        $.ajax({
+            url: '/LandLordWebServices/expense',
+            type: 'PUT',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: JSON.stringify(params),
+            success: this.proxy([success]),
+            error: error,
+            fixture: false
+        });
+    },
+
+    destroy: "/LandLordWebServices/expense",
+    update : "/LandLordWebServices/expense"
 },
 /* @Prototype */
 {});
