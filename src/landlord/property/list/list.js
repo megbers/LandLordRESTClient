@@ -33,7 +33,6 @@ $.Controller('Landlord.Property.List',
 	},
     '.addressHeader click':function(el) {
         var property = el.closest('.property').model();
-        console.log(property);
         $('#applicationContainer').landlord_property_show({property: property});
     },
     '#createPropertyButton click':function(el, ev) {

@@ -18,7 +18,13 @@ $.Model('Landlord.Models.Expense',
             type: 'GET',
             dataType: 'json',
             contentType: 'application/json',
-            success: this.proxy([success]),
+            success: function(expenses) {
+                var expensesArray = [];
+                for(var i=0; i < expenses.length; i++) {
+                    expensesArray.push(new Landlord.Models.Expense(expenses[i]));
+                }
+                success(expensesArray);
+            },
             error: error,
             fixture: false
         });

@@ -15,16 +15,39 @@ $.Controller('Landlord.Expense.Create',
 /** @Prototype */
 {
 	init : function(){
-		this.element.html(this.view());
+		this.update();
 	},
+
+    update: function() {
+        this.element.html(this.view('init', {}));
+    },
+
+    '#expenseType change':function(el, ev) {
+        var property = this.options.property;
+        var selectedItem = el.val();
+        if(selectedItem === '') {
+
+        }
+
+    },
+
     '#createExpense click': function(el, ev) {
         ev.preventDefault();
-        this.element.find('[type=submit]').val('Creating...');
-        new Landlord.Models.Expense(el.formParams()).save(this.callback('saved'));
+        var expense = this._createExpenseObjectFromForm(el);
+        new Landlord.Models.Expense(expense).save(this.callback('saved'));
     },
+
 	saved : function(){
-		//TODO Go Back To Property
-	}
+        $('#applicationContainer').landlord_property_show({property: this.options.property});
+	},
+
+    _createExpenseObjectFromForm: function(el) {
+        var expense = el.closest('form').formParams();
+        expense.property = this.options.property;
+        expense.enteredDate = new Date();
+        expense.paid = expense.amountTotal <= expense.amountPaid;
+        return expense;
+    }
 })
 
 });

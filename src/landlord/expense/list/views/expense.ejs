@@ -1,4 +1,20 @@
 <p>
+    <%
+    if(typeof dueDate !== 'undefined') {
+        var today = new Date();
+        var dueDateAsDate = new Date(dueDate);
+        var isNotPaid = (typeof paid === 'undefined' || !paid) ? true : false;
+
+        if(today > dueDateAsDate && isNotPaid) { %>
+            <img class="expenseListStatus" src="images/overdue_icon.png" />
+        <%} else if(!isNotPaid) { %>
+            <img class="expenseListStatus" src="images/paid_icon.jpg" />
+        <%} else {%>
+            <img class="expenseListStatus" src="images/pending_icon.gif" />
+        <%}
+    }%>
+
+
     <% if(typeof amountTotal !== 'undefined') {%>
         <%= amountTotal %>
     <%}%>

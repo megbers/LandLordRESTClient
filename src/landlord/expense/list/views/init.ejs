@@ -1,8 +1,9 @@
-<%for(var i = 0; i < this.length ; i++){
-    var className = i % 2 == 0 ? 'evenRow' : 'oddRow'; %>
-	<li class='<%= className %>' <%= this[i]%>>
-		<%== $.View('//landlord/expense/list/views/expense.ejs', this[i] )%>
-	</li>
-<%}%>
-
+<ul id='expenses'>
+    <%for(var i = 0; i < this.length ; i++){
+        var className = i % 2 == 0 ? 'evenRow' : 'oddRow'; %>
+        <li class='<%= className %>' <%= this[i]%>>
+            <%== $.View('//landlord/expense/list/views/expense.ejs', this[i] )%>
+        </li>
+    <%}%>
+</ul>
 <a id='createExpenseButton'>Create Expense</a>

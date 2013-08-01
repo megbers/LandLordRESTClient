@@ -20,8 +20,16 @@ $.Controller('Landlord.Expense.List',
 /** @Prototype */
 {
 	init : function(){
-		this.element.html(this.view('init',Landlord.Models.Expense.findAll()) )
+        this.update();
 	},
+    update: function(options) {
+        this.options.property = options && options.property ? options.property : this.options.property;
+        Landlord.Models.Expense.findByProperty({propertyId: this.options.property.id}, this.proxy(this.showExpenses));
+    },
+    showExpenses: function(expenses) {
+        //TODO Remove the logic from the EJS and move it here...
+        this.element.html(this.view('init', expenses));
+    },
 	'.destroyExpense click': function( el ){
         console.log('deleting expense');
 		if(confirm("Are you sure you want to destroy?")){
@@ -29,7 +37,7 @@ $.Controller('Landlord.Expense.List',
 		}
 	},
     '#createExpenseButton click': function(el) {
-        $('#applicationContainer').landlord_expense_create();
+        $('#applicationContainer').landlord_expense_create(this.options);
     },
 	"{Landlord.Models.Expense} destroyed" : function(Expense, ev, expense) {
 		expense.elements(this.element).remove();

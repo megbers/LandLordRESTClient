@@ -21,11 +21,11 @@ steal( 'jquery/controller',
                 update : function(options) {
                     this.options.property = options && options.property ? options.property : this.options.property;
                     this.element.html(this.view('init', this.options.property));
-                    $('#propertyExpenseList').landlord_expense_list();
+                    $('#propertyExpenseList').landlord_expense_list({property: this.options.property});
                 },
 
                 '#backToPropertyListButton click': function(element, event) {
-                    $('#applicationContainer').landlord_property_list();
+                    $('#applicationContainer').landlord_property_list({property: this.options.property});
                 }
             })
 

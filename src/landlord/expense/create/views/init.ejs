@@ -1,27 +1,33 @@
-<h2>New expense</h2>
-<p>
-	<label for='amountTotal'>Amount</label> <br/>
-	<input type='input' name='amountTotal' id='amountTotal'/>
-</p>
-<p>
-    <label for='amountPaid'>Paid</label> <br/>
-    <input type='input' name='amountPaid' id='amountPaid'/>
-</p>
-<p>
-    <label for='property'>Property</label> <br/>
-    <input type='input' name='property' id='property'/>
-</p>
-<p>
-    <label for='enteredDate'>Date Entered</label> <br/>
-    <input type='date' name='enteredDate' id='enteredDate'/>
-</p>
-<p>
-    <label for='dueDate'>Due Date</label> <br/>
-    <input type='date' name='dueDate' id='dueDate'/>
-</p>
-<p>
-    <label for='paidDate'>Paid Date</label> <br/>
-    <input type='date' name='paidDate' id='paidDate'/>
-</p>
 
-<a id='createExpense'>Create Expense</a>
+<h2>New expense</h2>
+<form>
+   <p>
+       <!-- TODO Make this list come from the database -->
+       <select id='expenseType' name='type'>
+           <option vale=''></option>
+           <option vale='RENT'>Rent</option>
+           <option vale='MORTGAGE'>Mortgage</option>
+           <option vale='TAX'>Tax</option>
+           <option vale='INSURANCE'>Insurance</option>
+           <option vale='REPAIR'>Repair</option>
+       </select>
+   </p>
+   <p>
+        <label for='amountTotal'>Total Amount</label> <br/>
+        <input type='input' name='amountTotal' id='amountTotal'/>
+    </p>
+    <!--p>
+        <label for='amountPaid'>Paid Amount</label> <br/>
+        <input type='input' name='amountPaid' id='amountPaid'/>
+    </p -->
+    <input type='hidden' id='paid' name='paid' value='false' />
+    <p>
+        <label for='dueDate'>Due Date</label> <br/>
+        <input type='date' name='dueDate' id='dueDate'/>
+    </p>
+    <p>
+        <label for='paidDate'>Paid Date</label> <br/>
+        <input type='date' name='paidDate' id='paidDate'/>
+    </p>
+    <a id='createExpense'>Create Expense</a>
+</form>

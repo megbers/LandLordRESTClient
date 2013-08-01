@@ -28,6 +28,11 @@ hr {
 	border-top:1px dotted #000;
 }
 
+.expenseListStatus {
+    height: 20px;
+    width: 20px;
+}
+
 /** List Styles **/
 li {
     list-style: none;
