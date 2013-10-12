@@ -27,5 +27,13 @@
         <%= dueDate %>
     <%}%>
     |
-    <a href='javascript://' class='destroyExpense'>X</a>
+    <% if(typeof expenseType !== 'undefined') {%>
+        <%= expenseType %>
+    <%}%>
+    |
+    <a href='javascript://' class='destroyExpense'>Delete</a>
+    |
+    <a href='javascript://' class='payExpense'>Pay</a>
+    |
+    <a href='javascript://' class='showExpense'>Show</a>
 </p>

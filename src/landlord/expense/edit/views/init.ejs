@@ -1,0 +1,40 @@
+
+<h2>Edit Expense</h2>
+<form>
+<p>
+    <!-- TODO Make this list come from the database -->
+    <select id='expenseType' name='type'>
+        <option vale=''></option>
+        <option vale='RENT'>Rent</option>
+        <option vale='MORTGAGE'>Mortgage</option>
+        <option vale='TAX'>Tax</option>
+        <option vale='INSURANCE'>Insurance</option>
+        <option vale='REPAIR'>Repair</option>
+    </select>
+</p>
+<p>
+    <label for='amountTotal'>Total Amount</label> <br/>
+    <input type='input' name='amountTotal' id='amountTotal' value='<%= amountTotal %>'/>
+</p>
+<p>
+    <label for='amountPaid'>Paid Amount</label> <br/>
+    <input type='input' name='amountPaid' id='amountPaid' value='<%= amountPaid %>'/>
+</p>
+<p>
+    <label for='amountPaid'>Paid?</label> <br/>
+    <input type='input' name='paid' id='paid' value='<%= paid %>'/>
+</p>
+<p>
+    <label for='dueDate'>Due Date</label> <br/>
+    <input type='date' name='dueDate' id='dueDate' value='<%= dueDate %>'/>
+</p>
+<p>
+    <label for='paidDate'>Paid Date</label> <br/>
+    <input type='date' name='paidDate' id='paidDate' value='<%= paidDate %>'/>
+</p>
+<a id='editExpense'>Edit Expense</a>
+<br/>
+<a id='cancelEditExpense'>Cancel</a>
+</form>
+
+

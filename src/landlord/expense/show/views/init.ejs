@@ -1,0 +1,67 @@
+<h2>Show Expense</h2>
+<p>
+    <span class='infoLabel'>Amount Paid</span> <br/>
+    <% if(typeof amountPaid !== 'undefined') {%>
+        <%= amountPaid %>
+    <%}%>
+</p>
+
+<p>
+    <span class='infoLabel'>Type</span> <br/>
+    <% if(typeof expenseType !== 'undefined') {%>
+        <%= expenseType %>
+    <%}%>
+</p>
+
+<p>
+    <span class='infoLabel'>Amount Total</span> <br/>
+    <% if(typeof amountTotal !== 'undefined') {%>
+        <%= amountTotal %>
+    <%}%>
+</p>
+
+<p>
+    <span class='infoLabel'>Due Date</span> <br/>
+    <% if(typeof dueDate !== 'undefined') {%>
+        <%= dueDate %>
+    <%}%>
+</p>
+
+<p>
+    <span class='infoLabel'>Entered Date</span> <br/>
+    <% if(typeof enteredDate !== 'undefined') {%>
+        <%= enteredDate %>
+    <%}%>
+</p>
+
+<p>
+    <span class='infoLabel'>Paid?</span> <br/>
+    <% if(typeof paid !== 'undefined') {%>
+        <%= paid %>
+    <%}%>
+</p>
+
+<p>
+    <span class='infoLabel'>Paid Date</span> <br/>
+    <% if(typeof paidDate !== 'undefined') {%>
+        <%= paidDate %>
+    <%}%>
+</p>
+
+<p>
+    <span class='infoLabel'>Description</span> <br/>
+    <% if(typeof description !== 'undefined') {%>
+        <%= description %>
+    <%}%>
+</p>
+
+
+<div>
+<a id='editExpenseButton'>Edit Expense</a>
+</div>
+<div>
+<a id='deleteExpenseButton'>Delete Expense</a>
+</div>
+<div>
+<a id='backToPropertyButton'>Back To Property</a>
+</div>

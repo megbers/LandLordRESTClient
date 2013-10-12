@@ -44,7 +44,7 @@ $.Model('Landlord.Models.Expense',
     },
 
     destroy: "/LandLordWebServices/expense",
-    update : "/LandLordWebServices/expense"
+    update: "POST /LandLordWebServices/expense"
 },
 /* @Prototype */
 {});

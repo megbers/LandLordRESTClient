@@ -36,6 +36,21 @@ $.Controller('Landlord.Expense.List',
 			el.closest('.expense').model().destroy();
 		}
 	},
+
+    '.payExpense click': function(el) {
+        console.log('paying expense');
+        var expense = el.closest('.expense').model();
+        expense.amountPaid = expense.amountTotal;
+        expense.paid = true;
+        //expense.paidDate = new Date();
+
+        console.log(expense);
+        expense.update();
+    },
+    '.showExpense click':function(el) {
+        var expense = el.closest('.expense').model();
+        $('#applicationContainer').landlord_expense_show({expense: expense});
+    },
     '#createExpenseButton click': function(el) {
         $('#applicationContainer').landlord_expense_create(this.options);
     },
@@ -46,6 +61,7 @@ $.Controller('Landlord.Expense.List',
 		this.element.append(this.view('init', [expense]))
 	},
 	"{Landlord.Models.Expense} updated" : function(Expense, ev, expense){
+        console.log('Updating view');
 		expense.elements(this.element)
 		      .html(this.view('expense', expense) );
 	}
