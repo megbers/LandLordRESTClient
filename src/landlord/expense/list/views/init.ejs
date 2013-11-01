@@ -1,10 +1,20 @@
-<p>Expenses</p>
-<ul id='expenses'>
-    <%for(var i = 0; i < this.length ; i++){
-        var className = i % 2 == 0 ? 'evenRow' : 'oddRow'; %>
-        <li class='<%= className %>' <%= this[i]%>>
+<div class="expenseTable">
+<table class="table table-striped" id='expenses'>
+    <tr>
+        <th>Icon</th>
+        <th>Total</th>
+        <th>Paid</th>
+        <th>Due</th>
+        <th>Type</th>
+        <th>Delete</th>
+        <th>Pay In Full</th>
+        <th>Show</th>
+    </tr>
+    <%for(var i = 0; i < this.length ; i++){ %>
+        <tr <%= this[i]%>>
             <%== $.View('//landlord/expense/list/views/expense.ejs', this[i] )%>
-        </li>
+        </tr>
     <%}%>
-</ul>
+</table>
 <a id='createExpenseButton'>Create Expense</a>
+</div>

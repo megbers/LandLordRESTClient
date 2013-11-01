@@ -1,11 +1,22 @@
 <div>
+    <% if(backUrl !== '') { %>
     <span class="headerButton backButton">
         &lt;-Back
     </span>
+    <% } %>
+
     <span>
         <%= name %>
     </span>
+
+    <% if(backUrl !== '') { %>
     <span class="headerButton homeButton">
         Home
     </span>
+    <% } else { %>
+    <span class="headerButton closeButton">
+        X
+    </span>
+    <% } %>
+
 </div>

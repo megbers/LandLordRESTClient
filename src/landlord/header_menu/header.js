@@ -27,12 +27,18 @@ steal( 'jquery/controller',
                     this.element.html(this.view('init', this.options.headerDetails) );
                 },
                 '.backButton click': function() {
-                    if(this.options.headerDetails.backUrl === 'main') {
+                    var location = this.options.headerDetails.backUrl;
+                    if(location === 'main') {
                         $('#applicationContainer').landlord_main_menu();
+                    } else if(location === 'propertyList') {
+                        $('#applicationContainer').landlord_property_list();
                     }
                 },
                 '.homeButton click': function() {
                     $('#applicationContainer').landlord_main_menu();
+                },
+                '.closeButton click': function() {
+                    console.log('Close Button Clicked');
                 }
 
             });

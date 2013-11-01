@@ -1,6 +1,5 @@
-<p>
-    <%
-    if(typeof dueDate !== 'undefined') {
+    <td>
+    <%if(typeof dueDate !== 'undefined') {
         var today = new Date();
         var dueDateAsDate = new Date(dueDate);
         var isNotPaid = (typeof paid === 'undefined' || !paid) ? true : false;
@@ -13,27 +12,40 @@
             <img class="expenseListStatus" src="images/pending_icon.gif" />
         <%}
     }%>
+    </td>
 
-
+    <td>
     <% if(typeof amountTotal !== 'undefined') {%>
         <%= amountTotal %>
     <%}%>
-    |
+    </td>
+
+    <td>
     <% if(typeof amountPaid !== 'undefined') {%>
         <%= amountPaid %>
     <%}%>
-    |
+    </td>
+
+    <td>
     <% if(typeof dueDate !== 'undefined') {%>
         <%= dueDate %>
     <%}%>
-    |
+    </td>
+
+    <td>
     <% if(typeof expenseType !== 'undefined') {%>
         <%= expenseType %>
     <%}%>
-    |
-    <a href='javascript://' class='destroyExpense'>Delete</a>
-    |
+    </td>
+
+    <td>
+    <button class="destroyExpense btn btn-large btn-primary"><i class="icon-remove icon-white"/>Delete</button>
+    <button class="destroyExpense btn btn-large btn-primary"><i class="glyphicon-remove icon-white"/>Delete</button>
+    <button class="destroyExpense btn btn-large btn-primary"><i class="glyphicon-remove-circle icon-white"/>Delete</button>
+    <button class="destroyExpense btn btn-large btn-primary"><i class="glyphicon-remove-sign icon-white"/>Delete</button>
+
+    </td><td>
     <a href='javascript://' class='payExpense'>Pay</a>
-    |
+    </td><td>
     <a href='javascript://' class='showExpense'>Show</a>
-</p>
+    </td>

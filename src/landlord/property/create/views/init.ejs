@@ -1,62 +1,64 @@
-<form>
+<form role="form">
 <h2>New Property</h2>
-<p>
+<div class="form-group">
 	<label for='address'>Address</label> <br/>
-	<input type='text' name='address' id='address'/>
-</p>
-<p>
+	<input type='text' class="form-control" name='address' id='address'/>
+</div>
+<div class="form-group">
     <label for='mortgage'>Mortgage Amount</label> <br/>
-    <input type='number' name='mortgage' id='mortgage'/>
-</p>
-<p>
+    <input type='number' class="form-control" name='mortgage' id='mortgage'/>
+</div>
+<div class="form-group">
     <label for='currentRent'>Current Rent</label> <br/>
-    <input type='number' name='currentRent' id='currentRent'/>
-</p>
-<p>
+    <input type='number' class="form-control" name='currentRent' id='currentRent'/>
+</div>
+<div class="form-group">
     <label for='tax'>Tax</label> <br/>
-    <input type='number' name='tax' id='tax'/>
-</p>
-<p>
+    <input type='number' class="form-control" name='tax' id='tax'/>
+</div>
+<div class="form-group">
     <label for='escrow'>Escrow</label> <br/>
-    <input type='text' name='escrow' id='escrow'/>
-</p>
-<p>
+    <input type='text' class="form-control" name='escrow' id='escrow'/>
+</div>
+<div class="form-group">
     <label for='security'>Security Deposite</label> <br/>
-    <input type='number' name='security' id='security'/>
-</p>
-<p>
+    <input type='number' class="form-control" name='security' id='security'/>
+</div>
+<div class="form-group">
     <label for='pet'>Pet Deposite</label> <br/>
-    <input type='number' name='pet' id='pet'/>
-</p>
-<p>
+    <input type='number' class="form-control" name='pet' id='pet'/>
+</div>
+<div class="form-group">
     <label for='rentPermit'>Rent Permit Date</label> <br/>
-    <input type='text' name='rentPermit' id='rentPermit'/>
-</p>
-<p>
+    <input type='text' class="form-control" name='rentPermit' id='rentPermit'/>
+</div>
+<div class="form-group">
     <label for='leaseStart'>Lease Start Date</label> <br/>
-    <input type='text' name='leaseStart' id='leaseStart'/>
-</p>
-<p>
+    <input type='text' class="form-control" name='leaseStart' id='leaseStart'/>
+</div>
+<div class="form-group">
     <label for='leaseEnd'>Lease End Date</label> <br/>
-    <input type='text' name='leaseEnd' id='leaseEnd'/>
-</p>
-<p>
+    <input type='text' class="form-control" name='leaseEnd' id='leaseEnd'/>
+</div>
+<div class="form-group">
     <label for='imageLocation'>Image Location</label> <br/>
-    <input type='url' name='imageLocation' id='imageLocation'/>
-</p>
+    <input type='url' class="form-control" name='imageLocation' id='imageLocation'/>
+</div>
 
 
-<p>
-<label for='tenant'>Tenant</label> <br/>
-<select name='tenant' id='tenant'>
-    <option></option>
-    <%for(var i = 0; i < this.length ; i++){%>
-    <option value="<%= this[i].id%>"><%= this[i].name%></option>
-    <%}%>
-</select>
-</p>
+<div class="form-group">
+    <label for='tenant'>Tenant</label> <br/>
+    <select class="form-control" name='tenant' id='tenant'>
+        <option></option>
+        <%for(var i = 0; i < this.length ; i++){%>
+        <option value="<%= this[i].id%>"><%= this[i].name%></option>
+        <%}%>
+    </select>
+</div>
 
-<p>
-    <input type='submit' value='Create'/>
-</p>
+<div class="form-group">
+    <input type="submit" class="btn btn-primary btn-lg btn-block" value='Create'/>
+    <button type="button" class="cancelButton btn btn-primary btn-lg btn-block">Cancel</button>
+    <!-- input type='submit' value='Create'/ -->
+</div>
 </form>

@@ -1,17 +1,17 @@
-steal( 'jquery/controller',
+steal('jquery/controller',
     'jquery/view/ejs',
     'jquery/controller/view',
     'landlord/models')
-    .then( './views/init.ejs',
+    .then('./views/init.ejs',
     function($){
 
         /**
-         * @class Landlord.Settings
+         * @class Landlord.TenantScreening
          * @parent index
          * @inherits jQuery.Controller
-         * Creates the settings
+         * Creates the header
          */
-        $.Controller('Landlord.Settings',
+        $.Controller('Landlord.TenantScreening',
             /** @Static */
             {
                 defaults : {}
@@ -21,9 +21,9 @@ steal( 'jquery/controller',
                 init : function(){
                     this.update();
                 },
-                update:function() {
-                    $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Settings',backUrl:'main'}});
-                    this.element.html(this.view('init') )
+                update:function(options) {
+                    $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Tenant Screening',backUrl:'main'}});
+                    this.element.html(this.view('init', {}) );
                 }
 
             });

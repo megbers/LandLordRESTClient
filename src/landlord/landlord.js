@@ -16,8 +16,10 @@ steal(
     'landlord/main_menu/mainMenu.js',
     'landlord/settings/settings.js',
     'landlord/header_menu/header.js',
+    'landlord/tenant_screening/tenantScreening.js',
+    'twitter/css/bootstrap.css',
 
-	function(){					// configure your application
+    function(){					// configure your application
 
         $.ajaxSetup({
             processData : false

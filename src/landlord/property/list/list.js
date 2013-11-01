@@ -24,6 +24,7 @@ $.Controller('Landlord.Property.List',
         this.update();
 	},
     update:function() {
+        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Property Summary',backUrl:'main'}});
         this.element.html(this.view('init',Landlord.Models.Property.findAll()) )
     },
 	'.destroyProperty click': function( el ){
@@ -36,6 +37,7 @@ $.Controller('Landlord.Property.List',
         $('#applicationContainer').landlord_property_show({property: property});
     },
     '#createPropertyButton click':function(el, ev) {
+        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Create Property',backUrl:'propertyList'}});
         $('#applicationContainer').landlord_property_create();
     },
 	"{Landlord.Models.Property} destroyed" : function(Property, ev, property) {

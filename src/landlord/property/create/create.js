@@ -15,12 +15,22 @@ $.Controller('Landlord.Property.Create',
 /** @Prototype */
 {
 	init : function(){
-		this.element.html(this.view('init', Landlord.Models.Person.findAll()));
+		this.update();
 	},
+
+    update: function() {
+        this.element.html(this.view('init', Landlord.Models.Person.findAll()));
+    },
+
+    '.cancelButton click' : function() {
+        $('#applicationContainer').landlord_property_list();
+    },
+
 	submit : function(el, ev){
 		ev.preventDefault();
 		new Landlord.Models.Property(el.formParams()).save(this.callback('saved'));
 	},
+
 	saved : function(){
         $('#applicationContainer').landlord_property_list();
 	}

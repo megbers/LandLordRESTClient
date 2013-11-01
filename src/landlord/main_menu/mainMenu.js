@@ -1,9 +1,9 @@
-steal( 'jquery/controller',
+steal('jquery/controller',
     'jquery/view/ejs',
     'jquery/controller/view',
     'landlord/models',
     'landlord/property/list')
-    .then( './views/init.ejs',
+    .then('./mainMenu.css', './views/init.ejs',
     function($){
 
         /**
@@ -23,14 +23,13 @@ steal( 'jquery/controller',
                     this.update();
                 },
                 update:function() {
-                    this._updateHeader('Main Menu', 'main');
+                    this._updateHeader('Main Menu', '');
                     this.element.html(this.view('init') )
                 },
                 '.importExportButton click':function(el) {
                     console.log('importExportButton');
                 },
                 '.propertySummaryButton click':function(el) {
-                    this._updateHeader('Property Summary', 'main');
                     $('#applicationContainer').landlord_property_list();
                 },
                 '.financialSummaryButton click':function(el) {
@@ -43,10 +42,9 @@ steal( 'jquery/controller',
                     console.log('rentalsAvailableButton');
                 },
                 '.tenantScreeningButton click':function(el) {
-                    console.log('importExportButton');
+                    $('#applicationContainer').landlord_tenant_screening();
                 },
                 '.settingsButton click':function(el) {
-                    this._updateHeader('Settings', 'main');
                     $('#applicationContainer').landlord_settings();
                 },
                 _updateHeader: function(pageTitle, backUrl) {

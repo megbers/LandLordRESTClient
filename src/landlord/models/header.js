@@ -14,7 +14,7 @@ steal('jquery/model', function(){
         /* @Prototype */
         {
             name: 'Main Menu',
-            backUrl: 'main'
+            backUrl: ''
 
         });
 
