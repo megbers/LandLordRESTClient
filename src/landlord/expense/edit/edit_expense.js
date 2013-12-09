@@ -21,6 +21,8 @@ steal('jquery/controller',
                 update : function(options) {
                     this.options.expense = options && options.expense ? options.expense : this.options.expense;
                     this.element.html(this.view('init', this.options.expense));
+
+                    $('#expenseType').val(this.options.expense.expenseType);
                 },
 
                 '#editExpense click' : function(element, event) {

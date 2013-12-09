@@ -1,0 +1,26 @@
+<h2>Show Miles</h2>
+<p>
+    <span class='infoLabel'>Date</span> <br/>
+    <% if(typeof milesDate !== 'undefined') {%>
+    <%= milesDate %>
+    <%}%>
+</p>
+<p>
+    <span class='infoLabel'>Type</span> <br/>
+    <% if(typeof milesType !== 'undefined') {%>
+    <%= milesType %>
+    <%}%>
+</p>
+<p>
+    <span class='infoLabel'>Miles</span> <br/>
+    <% if(typeof numberOfMiles !== 'undefined') {%>
+    <%= numberOfMiles %>
+    <%}%>
+</p>
+
+<div>
+    <a id='editMilesButton'>Edit Miles</a>
+</div>
+<div>
+    <a id='deleteMilesButton'>Delete Miles</a>
+</div>

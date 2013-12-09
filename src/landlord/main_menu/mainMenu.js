@@ -36,7 +36,7 @@ steal('jquery/controller',
                     console.log('financialSummaryButton');
                 },
                 '.milesButton click':function(el) {
-                    console.log('milesButton');
+                    $('#applicationContainer').landlord_miles_list();
                 },
                 '.rentalsAvailableButton click':function(el) {
                     console.log('rentalsAvailableButton');

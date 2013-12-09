@@ -1,0 +1,25 @@
+
+<h2>New Miles</h2>
+<form>
+    <p>
+        <!-- TODO Make this list come from the database -->
+        <label for='milesType'>Miles Type</label> </br>
+        <select id='milesType' name='milesType'>
+            <option value=''></option>
+            <option value='RENTAL'>Rental</option>
+            <option value='HARDWARE_STORE'>Hardware Store</option>
+            <option value='BANK'>Bank</option>
+            <option value='REALTOR'>Realtor</option>
+            <option value='OTHER'>Other</option>
+        </select>
+    </p>
+    <p>
+        <label for='milesDate'>Date</label> <br/>
+        <input type='date' name='milesDate' id='milesDate'/>
+    </p>
+    <p>
+        <label for='numberOfMiles'>Number Of Miles</label> <br/>
+        <input type='number' name='numberOfMiles' id='numberOfMiles'/>
+    </p>
+    <a id='createMiles'>Create Miles</a>
+</form>

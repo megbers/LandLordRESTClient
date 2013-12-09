@@ -1,0 +1,15 @@
+<div class="milesTable">
+    <table class="table table-striped" id='milesTable'>
+        <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Miles</th>
+        </tr>
+        <%for(var i = 0; i < this.length ; i++){ %>
+        <tr <%= this[i]%>>
+        <%== $.View('//landlord/miles/list/views/miles.ejs', this[i] )%>
+        </tr>
+        <%}%>
+    </table>
+    <a id='createMilesButton'>Create Miles</a>
+</div>

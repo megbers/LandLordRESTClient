@@ -32,6 +32,8 @@ steal( 'jquery/controller',
                         $('#applicationContainer').landlord_main_menu();
                     } else if(location === 'propertyList') {
                         $('#applicationContainer').landlord_property_list();
+                    } else if(location === 'miles') {
+                        $('#applicationContainer').landlord_miles_list();
                     }
                 },
                 '.homeButton click': function() {
