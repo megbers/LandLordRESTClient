@@ -1,8 +1,8 @@
 steal( 'jquery/controller',
     'jquery/view/ejs',
     'jquery/controller/view',
-    'landlord/models' )
-    .then( './views/init.ejs',
+    'landlord/models')
+    .then( './views/miles_list.ejs',
     './views/miles.ejs',
     function($){
 
@@ -29,7 +29,7 @@ steal( 'jquery/controller',
                     this.showMiles(Landlord.Models.Miles.findAll());
                 },
                 showMiles: function(milesList) {
-                    this.element.html(this.view('init', milesList));
+                    this.element.html(this.view('miles_list.ejs', milesList));
                 },
                 '.destroyMiles click': function( el ){
                     console.log('deleting miles');

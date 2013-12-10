@@ -13,13 +13,26 @@
             <option value='OTHER'>Other</option>
         </select>
     </p>
+
+    <p>
+        <label for='property'>Property</label> </br>
+        <select id='property' name='property'>
+            <option value=''></option>
+            <%for(var i = 0; i < this.properties.length ; i++){ %>
+            <option value='<%= this.properties[i].id %>'><%= this.properties[i].address %></option>
+            <%}%>
+        </select>
+    </p>
+
     <p>
         <label for='milesDate'>Date</label> <br/>
         <input type='date' name='milesDate' id='milesDate'/>
     </p>
+
     <p>
         <label for='numberOfMiles'>Number Of Miles</label> <br/>
         <input type='number' name='numberOfMiles' id='numberOfMiles'/>
     </p>
+
     <a id='createMiles'>Create Miles</a>
 </form>

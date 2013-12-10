@@ -20,13 +20,14 @@ steal( 'jquery/controller',
 
             update: function() {
                 $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'New Miles',backUrl:'miles'}});
-                this.element.html(this.view('init', {}));
+                var properties = Landlord.Models.Property.findAll();
+                this.element.html(this.view('init', {properties: properties}));
             },
 
             '#createMiles click': function(el, ev) {
                 ev.preventDefault();
                 var miles = el.closest('form').formParams();
-                console.log(miles);
+                miles.property = {id: miles.property};
                 new Landlord.Models.Miles(miles).save(this.callback('saved'));
             },
 

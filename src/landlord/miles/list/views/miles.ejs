@@ -4,6 +4,11 @@
     <%}%>
 </td>
 <td>
+    <% if(typeof property !== 'undefined') {%>
+    <%= property.address %>
+    <%}%>
+</td>
+<td>
     <% if(typeof milesType !== 'undefined') {%>
     <%= milesType %>
     <%}%>
@@ -11,5 +16,10 @@
 <td>
     <% if(typeof numberOfMiles !== 'undefined') {%>
     <%= numberOfMiles %>
+    <%}%>
+</td>
+<td>
+    <% if(typeof property !== 'undefined') {%>
+    <div id='graph_<%= property.id %>' class='graph <%= property.id %>'></div>
     <%}%>
 </td>
