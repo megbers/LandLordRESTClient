@@ -1,22 +1,20 @@
-<div>
-    <% if(backUrl !== '') { %>
-    <span class="headerButton backButton">
-        &lt;-Back
-    </span>
-    <% } %>
+<div class="header-bar">
 
-    <span>
-        <%= name %>
+    <div class="header-left">
+        <% if(backUrl !== '') { %>
+            <a href="<%= backUrl %>" class="headerButton backButton btn-primary"><span class="glyphicon glyphicon-circle-arrow-left"></span></a>
+        <% } %>
     </span>
 
-    <% if(backUrl !== '') { %>
-    <span class="headerButton homeButton">
-        Home
-    </span>
-    <% } else { %>
-    <span class="headerButton closeButton">
-        X
-    </span>
-    <% } %>
+    <%= name %>
 
+    <div class="header-right">
+        <% if(backUrl !== '') { %>
+            <a href="#!" class="headerButton homeButton btn-primary"> <span class="glyphicon glyphicon-home"></span></a>
+        <% } else { %>
+            <a href="" class="headerButton closeButton btn-primary">
+               <span class="glyphicon glyphicon-remove"></span>
+            </a>
+        <% } %>
+    </div>
 </div>

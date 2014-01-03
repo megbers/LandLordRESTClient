@@ -1,0 +1,15 @@
+.header-bar {
+    width: 100%;
+    background-color: #428bca;
+    font-size: 15pt;
+    color: #FFFFFF;
+    overflow:auto;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}

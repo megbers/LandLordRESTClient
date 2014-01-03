@@ -21,6 +21,7 @@ steal(
     'landlord/main_menu/mainMenu.js',
     'landlord/settings/settings.js',
     'landlord/header_menu/header.js',
+    'landlord/router/router.js',
     'landlord/tenant_screening/tenantScreening.js',
     'twitter/css/bootstrap.css',
 
@@ -48,7 +49,7 @@ steal(
 //	    $('#expenses').landlord_expense_list();
 //		$('#createExpense').landlord_expense_create();
 //      $('#applicationContainer').landlord_property_list();
-
+        $('body').landlord_router();
         $('#headerMenuContainer').landlord_header_menu();
         $('#applicationContainer').landlord_main_menu();
 })

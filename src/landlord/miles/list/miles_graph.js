@@ -35,8 +35,11 @@ steal( 'jquery/controller',
                     console.log("Remove this when there is only one graph");
                 },
                 _initGraph: function() {
+                    console.log(this.property);
                     var data = this._agragateData(this.milesList);
+                    //console.log(data);
                     this.graphData = this._transformGraphData(data, this.property.id);
+                    //console.log(this.graphData);
                     this._showChart();
                 },
 
@@ -66,6 +69,7 @@ steal( 'jquery/controller',
                     var graphData = [];
                     var index = 0;
                     for(var milesType in dataForProperty) {
+                        console.log(milesType, propertyId, dataForProperty[milesType][propertyId]);
                         graphData[index] = {
                             value: dataForProperty[milesType][propertyId] ? dataForProperty[milesType][propertyId] : 0,
                             color: this._getColor(milesType)

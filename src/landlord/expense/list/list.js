@@ -52,6 +52,7 @@ $.Controller('Landlord.Expense.List',
         $('#applicationContainer').landlord_expense_show({expense: expense});
     },
     '#createExpenseButton click': function(el) {
+        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Create Expense', backUrl:'#!properties'}});
         $('#applicationContainer').landlord_expense_create(this.options);
     },
 	"{Landlord.Models.Expense} destroyed" : function(Expense, ev, expense) {

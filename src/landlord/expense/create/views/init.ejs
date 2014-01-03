@@ -1,34 +1,40 @@
+<form role="form">
+    <div class="form-group">
+        <!-- TODO Make this list come from the database -->
+        <label for='expenseType'>Expense Type</label> </br>
+        <select id='expenseType' name='expenseType' class="form-control">
+            <option vale=''></option>
+            <option vale='RENT'>Rent</option>
+            <option vale='MORTGAGE'>Mortgage</option>
+            <option vale='TAX'>Tax</option>
+            <option vale='INSURANCE'>Insurance</option>
+            <option vale='REPAIR'>Repair</option>
+        </select>
+    </div>
 
-<h2>New Expense</h2>
-<form>
-   <p>
-       <!-- TODO Make this list come from the database -->
-       <label for='expenseType'>Expense Type</label> </br>
-       <select id='expenseType' name='type'>
-           <option vale=''></option>
-           <option vale='RENT'>Rent</option>
-           <option vale='MORTGAGE'>Mortgage</option>
-           <option vale='TAX'>Tax</option>
-           <option vale='INSURANCE'>Insurance</option>
-           <option vale='REPAIR'>Repair</option>
-       </select>
-   </p>
-   <p>
+    <div class="form-group">
         <label for='amountTotal'>Total Amount</label> <br/>
-        <input type='input' name='amountTotal' id='amountTotal'/>
-    </p>
-    <!--p>
-        <label for='amountPaid'>Paid Amount</label> <br/>
-        <input type='input' name='amountPaid' id='amountPaid'/>
-    </p -->
-    <input type='hidden' id='paid' name='paid' value='false' />
-    <p>
+        <input type='input' name='amountTotal' id='amountTotal' class="form-control"/>
+    </div>
+
+    <div class="form-group">
         <label for='dueDate'>Due Date</label> <br/>
-        <input type='date' name='dueDate' id='dueDate'/>
-    </p>
-    <p>
+        <input type='date' name='dueDate' id='dueDate' class="form-control"/>
+    </div>
+
+    <div class="form-group">
+        <label for='amountPaid'>Paid Amount</label> <br/>
+        <input type='input' name='amountPaid' id='amountPaid' class="form-control"/>
+    </div>
+
+    <div class="form-group">
         <label for='paidDate'>Paid Date</label> <br/>
-        <input type='date' name='paidDate' id='paidDate'/>
-    </p>
-    <a id='createExpense'>Create Expense</a>
+        <input type='date' name='paidDate' id='paidDate' class="form-control"/>
+    </div>
+
+    <div class="form-group">
+        <a id='createExpense'><button type="button" class="buttonsInList btn btn-primary btn-lg btn-block">Create Expense</button></a>
+        <a href='#!properties'><button type="button" class="buttonsInList btn btn-primary btn-lg btn-block">Cancel</button></a>
+    </div>
+    <input type='hidden' id='paid' name='paid' value='false' />
 </form>

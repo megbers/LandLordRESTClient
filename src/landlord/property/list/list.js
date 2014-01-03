@@ -24,8 +24,8 @@ $.Controller('Landlord.Property.List',
         this.update();
 	},
     update:function() {
-        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Property Summary',backUrl:'main'}});
-        this.element.html(this.view('init',Landlord.Models.Property.findAll()) )
+        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Property Summary',backUrl:'#!'}});
+        this.element.html(this.view('init',Landlord.Models.Property.findAll()) );
     },
 	'.destroyProperty click': function( el ){
 		if(confirm("Are you sure you want to destroy?")){
@@ -34,17 +34,18 @@ $.Controller('Landlord.Property.List',
 	},
     '.addressHeader click':function(el) {
         var property = el.closest('.property').model();
+        window.location.hash = '#!property/show/' + property.id;
         $('#applicationContainer').landlord_property_show({property: property});
     },
     '#createPropertyButton click':function(el, ev) {
-        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Create Property',backUrl:'propertyList'}});
+        window.location.hash = '#!property/add';
         $('#applicationContainer').landlord_property_create();
     },
 	"{Landlord.Models.Property} destroyed" : function(Property, ev, property) {
 		property.elements(this.element).remove();
 	},
 	"{Landlord.Models.Property} created" : function(Property, ev, property){
-		this.element.append(this.view('init', [property]))
+		this.element.append(this.view('init', [property]));
 	},
 	"{Landlord.Models.Property} updated" : function(Property, ev, property){
 		property.elements(this.element)

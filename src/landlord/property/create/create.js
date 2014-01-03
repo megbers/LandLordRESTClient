@@ -19,11 +19,12 @@ $.Controller('Landlord.Property.Create',
 	},
 
     update: function() {
+        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Create Property',backUrl:'#!properties'}});
         this.element.html(this.view('init', Landlord.Models.Person.findAll()));
     },
 
     '.cancelButton click' : function() {
-        $('#applicationContainer').landlord_property_list();
+        window.location.hash = '#!properties';
     },
 
 	submit : function(el, ev){

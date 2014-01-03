@@ -23,8 +23,9 @@ steal( 'jquery/controller',
                     this.update();
                 },
                 update: function(options) {
-                    $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Miles Driven',backUrl:'main'}});
-                    this.options.property = {id: 1}; //options && options.property ? options.property : this.options.property;
+                    $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Miles Driven',backUrl:'#!'}});
+                    //TODO This needs to be the 'real' property
+                    this.options.property = {id: 6}; //options && options.property ? options.property : this.options.property;
                     //Landlord.Models.Miles.findByProperty({propertyId: this.options.property.id}, this.proxy(this.showMiles));
                      this.showMiles(Landlord.Models.Miles.findAll(), this.options.property);
                 },
@@ -46,6 +47,7 @@ steal( 'jquery/controller',
                     $('#applicationContainer').landlord_miles_show({miles: miles});
                 },
                 '#createMilesButton click': function(el) {
+                    window.location.hash = '#!miles/add';
                     $('#applicationContainer').landlord_miles_create(this.options);
                 },
                 "{Landlord.Models.Miles} destroyed" : function(Expense, ev, miles) {

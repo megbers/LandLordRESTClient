@@ -19,6 +19,7 @@ steal( 'jquery/controller',
                 },
 
                 update : function(options) {
+                    $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Property Summary',backUrl:'#!properties'}});
                     this.options.property = options && options.property ? options.property : this.options.property;
                     this.element.html(this.view('init', this.options.property));
                     $('#propertyExpenseList').landlord_expense_list({property: this.options.property});

@@ -19,7 +19,7 @@ steal( 'jquery/controller',
             },
 
             update: function() {
-                $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'New Miles',backUrl:'miles'}});
+                $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'New Miles', backUrl:'#!miles'}});
                 var properties = Landlord.Models.Property.findAll();
                 this.element.html(this.view('init', {properties: properties}));
             },

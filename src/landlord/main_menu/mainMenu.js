@@ -29,24 +29,28 @@ steal('jquery/controller',
                 '.importExportButton click':function(el) {
                     console.log('importExportButton');
                 },
-                '.propertySummaryButton click':function(el) {
-                    $('#applicationContainer').landlord_property_list();
-                },
+//                '.propertySummaryButton click':function(el) {
+//                    window.location.hash = "#!properties";
+//                    //$('#applicationContainer').landlord_property_list();
+//                },
                 '.financialSummaryButton click':function(el) {
                     console.log('financialSummaryButton');
                 },
-                '.milesButton click':function(el) {
-                    $('#applicationContainer').landlord_miles_list();
-                },
+//                '.milesButton click':function(el) {
+//                    window.location.hash = "#!miles";
+//                    //$('#applicationContainer').landlord_miles_list();
+//                },
                 '.rentalsAvailableButton click':function(el) {
                     console.log('rentalsAvailableButton');
                 },
-                '.tenantScreeningButton click':function(el) {
-                    $('#applicationContainer').landlord_tenant_screening();
-                },
-                '.settingsButton click':function(el) {
-                    $('#applicationContainer').landlord_settings();
-                },
+//                '.tenantScreeningButton click':function(el) {
+//                    window.location.hash = "#!tenant";
+//                    //$('#applicationContainer').landlord_tenant_screening();
+//                },
+//                '.settingsButton click':function(el) {
+//                    window.location.hash = "#!settings";
+//                    //$('#applicationContainer').landlord_settings();
+//                },
                 _updateHeader: function(pageTitle, backUrl) {
                     $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:pageTitle,backUrl:backUrl}});
                 }
