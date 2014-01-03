@@ -1,0 +1,8 @@
+<ul id="properties">
+    <%for(var i = 0; i < this.length ; i++){%>
+    <li <%= this[i] %>>
+        <%== $.View('//landlord/miles/list/views/property_miles.ejs', this[i] )%>
+    </li>
+    <%}%>
+</ul>
+<a id='createMilesButton'><button type="button" class="createMilesButton btn btn-primary btn-lg btn-block">Create Miles</button></a>

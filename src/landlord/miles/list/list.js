@@ -4,6 +4,8 @@ steal( 'jquery/controller',
     'landlord/models')
     .then( './views/miles_list.ejs',
     './views/miles.ejs',
+    './views/property_list.ejs',
+    './views/property_miles.ejs',
     function($){
 
         /**
@@ -24,17 +26,30 @@ steal( 'jquery/controller',
                 },
                 update: function(options) {
                     $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Miles Driven',backUrl:'#!'}});
-                    //TODO This needs to be the 'real' property
-                    this.options.property = {id: 6}; //options && options.property ? options.property : this.options.property;
+
+
+
+                    var propertyList = Landlord.Models.Property.findAll();
+                    var milesList = Landlord.Models.Miles.findAll();
+                    this.element.html(this.view('property_list.ejs', propertyList));
+
+                    //TODO Need to implement findByProperty on the miles model and server.
                     //Landlord.Models.Miles.findByProperty({propertyId: this.options.property.id}, this.proxy(this.showMiles));
-                     this.showMiles(Landlord.Models.Miles.findAll(), this.options.property);
+
+
+                    var that = this;
+                    setTimeout(function() {
+                        var properties = $.parseJSON(propertyList.responseText)
+                        for(var i=0; i < properties.length; i++) {
+                            var property = properties[i];
+                            that.showMiles($.parseJSON(milesList.responseText), property);
+                        }
+
+                    }, 1000);
                 },
                 showMiles: function(milesList, property) {
-                    this.element.html(this.view('miles_list.ejs', milesList));
-                    setTimeout(function() {
-                        $('.graph').landlord_miles_graph({milesList: $.parseJSON(milesList.responseText), property: property});
-                    }, 1000);
-
+                    //this.element.html(this.view('miles_list.ejs', milesList));
+                    $('.graph' + property.id).landlord_miles_graph({milesList: milesList, property: property});
                 },
                 '.destroyMiles click': function( el ){
                     console.log('deleting miles');
