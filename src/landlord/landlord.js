@@ -13,6 +13,7 @@ steal(
     'landlord/miles/create',
     'landlord/miles/list',
     'landlord/miles/show/show_miles.js',
+    'landlord/miles/list/miles_graph.js',
     'landlord/miles/edit/edit_miles.js',
     'landlord/property/show/show_property.js',
     'landlord/expense/show/show_expense.js',

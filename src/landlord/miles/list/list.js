@@ -24,12 +24,16 @@ steal( 'jquery/controller',
                 },
                 update: function(options) {
                     $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Miles Driven',backUrl:'main'}});
-                    this.options.property = options && options.property ? options.property : this.options.property;
+                    this.options.property = {id: 1}; //options && options.property ? options.property : this.options.property;
                     //Landlord.Models.Miles.findByProperty({propertyId: this.options.property.id}, this.proxy(this.showMiles));
-                    this.showMiles(Landlord.Models.Miles.findAll());
+                     this.showMiles(Landlord.Models.Miles.findAll(), this.options.property);
                 },
-                showMiles: function(milesList) {
+                showMiles: function(milesList, property) {
                     this.element.html(this.view('miles_list.ejs', milesList));
+                    setTimeout(function() {
+                        $('.graph').landlord_miles_graph({milesList: $.parseJSON(milesList.responseText), property: property});
+                    }, 1000);
+
                 },
                 '.destroyMiles click': function( el ){
                     console.log('deleting miles');
@@ -48,7 +52,7 @@ steal( 'jquery/controller',
                     miles.elements(this.element).remove();
                 },
                 "{Landlord.Models.Miles} created" : function(Expense, ev, miles){
-                    this.element.append(this.view('init', [miles]))
+                    this.element.append(this.view('miles_list.ejs', [miles]))
                 },
                 "{Landlord.Models.Miles} updated" : function(Expense, ev, miles){
                     console.log('Updating view');

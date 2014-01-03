@@ -14,8 +14,8 @@ steal('jquery/controller',
         $.Controller('Landlord.Miles.Edit',
             /** @Prototype */
             {
-                init : function(){
-                    this.update();
+                init : function(options){
+                    this.update(options);
                 },
 
                 update : function(options) {

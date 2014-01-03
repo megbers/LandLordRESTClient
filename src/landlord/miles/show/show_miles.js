@@ -3,7 +3,7 @@ steal( 'jquery/controller',
 'jquery/dom/form_params',
 'jquery/controller/view',
 'landlord/models' )
-.then('./views/init.ejs', function($){
+.then('./views/show_miles.ejs', function($){
 
     /**
      * @class Landlord.Miles.Show
@@ -21,7 +21,7 @@ steal( 'jquery/controller',
             update : function(options) {
                 $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Miles Details',backUrl:'miles'}});
                 this.options.miles = options && options.miles ? options.miles : this.options.miles;
-                this.element.html(this.view('init', this.options.miles));
+                this.element.html(this.view('show_miles.ejs', this.options.miles));
                 $('#propertyExpenseList').landlord_miles_list({miles: this.options.miles});
             },
 

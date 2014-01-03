@@ -2,26 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/landlord/miles/list/views/init.ejs" afterPath="$PROJECT_DIR$/src/landlord/miles/list/views/miles_list.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/create/create.js" afterPath="$PROJECT_DIR$/src/landlord/miles/create/create.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/create/views/init.ejs" afterPath="$PROJECT_DIR$/src/landlord/miles/create/views/init.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/landlord/miles/list/miles_graph.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/google/google_charts.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/landlord/miles/show/views/init.ejs" afterPath="$PROJECT_DIR$/src/landlord/miles/show/views/show_miles.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/edit/edit_miles.js" afterPath="$PROJECT_DIR$/src/landlord/miles/edit/edit_miles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/landlord.js" afterPath="$PROJECT_DIR$/src/landlord/landlord.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/list/list.js" afterPath="$PROJECT_DIR$/src/landlord/miles/list/list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/list/views/miles.ejs" afterPath="$PROJECT_DIR$/src/landlord/miles/list/views/miles.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/show/show_miles.js" afterPath="$PROJECT_DIR$/src/landlord/miles/show/show_miles.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LandLordRESTClient.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1386641752587" ignored="false" />
     <file path="/init.ejs" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1386642155992" ignored="false" />
-    <file path="/miles.ejs" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1386644931566" ignored="false" />
-    <file path="/list.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1386645660492" ignored="false" />
+    <file path="/miles.ejs" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1387161697331" ignored="false" />
+    <file path="/list.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1387164442428" ignored="false" />
     <file path="/mainMenu.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1386557320796" ignored="false" />
     <file path="/create.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1386643396508" ignored="false" />
     <file path="/show_miles.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1386561755225" ignored="false" />
     <file path="/header.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1386561466225" ignored="false" />
-    <file path="/edit_miles.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1386562656961" ignored="false" />
+    <file path="/edit_miles.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1387159729516" ignored="false" />
     <file path="/edit_expense.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1386562748570" ignored="false" />
     <file path="/miles_list.ejs" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1386644858348" ignored="false" />
+    <file path="/miles_graph.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1387163443615" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,16 @@
       <file leaf-file-name="list.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="78" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.438326">
+            <state line="32" column="142" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.59752744">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_miles.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landlord/miles/show/show_miles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="59" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,7 +66,43 @@
       <file leaf-file-name="miles.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/miles.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="138" selection-start="367" selection-end="367" vertical-scroll-proportion="-11.25">
+            <state line="22" column="53" selection-start="479" selection-end="479" vertical-scroll-proportion="-13.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="miles_graph.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/miles_graph.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="38" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landlord/miles/create/views/init.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="48" selection-start="251" selection-end="505" vertical-scroll-proportion="-7.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landlord.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landlord/landlord.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="36" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_miles.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landlord/miles/edit/edit_miles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="41" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,7 +111,7 @@
       <file leaf-file-name="miles_list.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/miles_list.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="45" selection-start="322" selection-end="322" vertical-scroll-proportion="-6.25">
+            <state line="10" column="26" selection-start="322" selection-end="322" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
@@ -86,21 +135,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/landlord/models/miles.js" />
         <option value="$PROJECT_DIR$/src/landlord/property/list/list.js" />
         <option value="$PROJECT_DIR$/src/landlord/header_menu/header.js" />
         <option value="$PROJECT_DIR$/src/landlord/miles/show/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/miles/show/show_miles.js" />
         <option value="$PROJECT_DIR$/src/landlord/miles/edit/views/miles.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/landlord.js" />
         <option value="$PROJECT_DIR$/src/landlord/miles/edit/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/miles/edit/edit_miles.js" />
         <option value="$PROJECT_DIR$/src/landlord/expense/edit/edit_expense.js" />
         <option value="$PROJECT_DIR$/src/landlord/miles/create/views/init.ejs" />
         <option value="$PROJECT_DIR$/src/landlord/miles/list/views/init.ejs" />
         <option value="$PROJECT_DIR$/src/landlord/miles/create/create.js" />
         <option value="$PROJECT_DIR$/src/landlord/miles/list/views/miles_list.ejs" />
+        <option value="$PROJECT_DIR$/src/landlord/miles/edit/edit_miles.js" />
+        <option value="$PROJECT_DIR$/src/landlord/landlord.js" />
         <option value="$PROJECT_DIR$/src/landlord/miles/list/views/miles.ejs" />
+        <option value="$PROJECT_DIR$/src/landlord/miles/list/miles_graph.js" />
+        <option value="$PROJECT_DIR$/src/landlord/miles/show/show_miles.js" />
         <option value="$PROJECT_DIR$/src/landlord/miles/list/list.js" />
       </list>
     </option>
@@ -108,7 +157,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1054" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -186,6 +235,248 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordAppRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="show" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordAppRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="show" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordAppRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordAppRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordAppRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordAppRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordAppRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordAppRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordAppRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -226,11 +517,11 @@
       <recent name="$PROJECT_DIR$/js/canjs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/landlord/miles/list" />
+      <recent name="$PROJECT_DIR$/src/chart" />
       <recent name="$PROJECT_DIR$/src/google" />
       <recent name="$PROJECT_DIR$/src/twitter" />
       <recent name="$PROJECT_DIR$/src/landlord/expense/edit" />
-      <recent name="$PROJECT_DIR$/src/landlord" />
-      <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -279,14 +570,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1920" height="874" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29923275" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24936816" sideWeight="0.15615141" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18239325" sideWeight="0.94551283" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18239325" sideWeight="0.94551283" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -361,41 +652,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/landlord/landlord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/show/show_miles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="101" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/edit/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="178" selection-end="187" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/edit/edit_miles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="70" selection-start="759" selection-end="809" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/expense/edit/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="106" selection-end="117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/landlord/expense/edit/edit_expense.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="91" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0">
@@ -424,16 +680,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/show/views/init.ejs">
+    <entry file="file://$PROJECT_DIR$/src/landlord/miles/show/views/show_miles.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="6" selection-start="547" selection-end="547" vertical-scroll-proportion="0.51369864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/create/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="4" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.7191781">
           <folding />
         </state>
       </provider>
@@ -452,23 +701,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/landlord/landlord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="36" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landlord/miles/create/views/init.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="48" selection-start="251" selection-end="505" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/miles_list.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="322" selection-end="322" vertical-scroll-proportion="-6.25">
+        <state line="10" column="26" selection-start="322" selection-end="322" vertical-scroll-proportion="-6.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/miles.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="138" selection-start="367" selection-end="367" vertical-scroll-proportion="-11.25">
+        <state line="22" column="53" selection-start="479" selection-end="479" vertical-scroll-proportion="-13.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/miles_graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="38" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landlord/miles/edit/edit_miles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="41" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landlord/miles/show/show_miles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="59" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="78" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.438326">
+        <state line="32" column="142" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.59752744">
           <folding />
         </state>
       </provider>
