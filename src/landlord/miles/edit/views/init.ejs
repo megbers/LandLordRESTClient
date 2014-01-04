@@ -1,5 +1,13 @@
-<h2>Edit Miles</h2>
 <form>
+    <!-- Make into another ejs that can be shared -->
+    <span class="pictureSpan">
+        <img src="<%= property.imageLocation %>" height="60px" width="60px"/>
+    </span>
+
+    <span class="addressSpan">
+        <%= property.address %>
+    </span>
+
     <input type="hidden" name='id' id='id' value='<%= id %>'/>
     <p>
         <!-- TODO Make this list come from the database -->
@@ -21,8 +29,10 @@
         <label for='numberOfMiles'>Number Of Miles</label> <br/>
         <input type='number' name='numberOfMiles' id='numberOfMiles' value='<%= numberOfMiles %>'/>
     </p>
-    <a id='editMiles'>Edit Miles</a>
-    <br/>
-    <a id='cancelEditMiles'>Cancel</a>
+
+    <span <%= this %> >
+        <a id='editMiles'><button type="button" class="buttonsInList btn btn-primary btn-lg btn-block">Update</button></a>
+        <a id='cancelEditMiles'><button type="button" class="buttonsInList btn btn-primary btn-lg btn-block">Cancel</button></a>
+    </span>
 </form>
 

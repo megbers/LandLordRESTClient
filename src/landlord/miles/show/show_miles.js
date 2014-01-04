@@ -22,7 +22,6 @@ steal( 'jquery/controller',
                 $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Miles Details',backUrl:'#!miles'}});
                 this.options.miles = options && options.miles ? options.miles : this.options.miles;
                 this.element.html(this.view('show_miles.ejs', this.options.miles));
-                $('#propertyExpenseList').landlord_miles_list({miles: this.options.miles});
             },
 
             '#editMilesButton click': function(element, event) {
@@ -33,8 +32,13 @@ steal( 'jquery/controller',
                 console.log('deleting miles');
                 if(confirm("Are you sure you want to destroy?")){
                     var property = this.options.miles.property;
+
+
+                    //TODO Reduce the number of the calls to the server
+                    var milesList = Landlord.Models.Miles.findAll();
+                    $('#applicationContainer').landlord_miles_list_property({property: property, milesList: milesList});
+
                     this.options.miles.destroy();
-                    $('#applicationContainer').landlord_miles_list();
                 }
             }
 

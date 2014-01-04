@@ -27,6 +27,14 @@ steal( 'jquery/controller',
                     $('#applicationContainer').landlord_miles_list();
                 },
 
+                'miles_list_property/:id route' : function(data) {
+                    console.log('miles_list_property/'+data.id);
+                },
+
+                'miles/:id route' : function(data) {
+                    console.log('miles/' + data.id);
+                },
+
                 'property/add route' : function() {
                     console.log('property/add');
                 },
@@ -37,6 +45,10 @@ steal( 'jquery/controller',
 
                 'property/edit/:id route' : function(data) {
                     console.log('property/edit/' + data.id);
+                },
+
+                'rentals route' : function(data) {
+                    $('#applicationContainer').landlord_rentals_list();
                 },
 
                 'properties route' : function() {

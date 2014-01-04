@@ -1,0 +1,11 @@
+<ul id="properties">
+    <%for(var i = 0; i < this.length ; i++){%>
+    <li <%= this[i] %>>
+
+        <% if(this[i].tenants.length == 0) { %>
+            <%== $.View('//landlord/rentals/list/views/property.ejs', this[i] )%>
+        <% } %>
+
+    </li>
+    <%}%>
+</ul>

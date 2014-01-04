@@ -98,3 +98,7 @@ li {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.infoLabel {
+    font-weight: bold;
+}

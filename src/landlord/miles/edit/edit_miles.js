@@ -19,6 +19,7 @@ steal('jquery/controller',
                 },
 
                 update : function(options) {
+                    $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Edit Miles',backUrl:'#!miles'}});
                     this.options.miles = options && options.miles ? options.miles : this.options.miles;
                     this.element.html(this.view('init', this.options.miles));
 
@@ -26,11 +27,19 @@ steal('jquery/controller',
                 },
 
                 '#editMiles click' : function(element, event) {
+                    event.preventDefault();
                     var miles = element.closest('form').formParams();
-                    console.log('Edit Miles Clicked: ', miles);
+                    var milesOriginal = element.closest('.miles').model();
+
+                    $.extend(milesOriginal, miles);
+
+                    //console.log(miles, milesOriginal, combined);
+
+                    milesOriginal.update();
                 },
 
                 '#cancelEditMiles click' : function(element, event) {
+                    window.location.hash = '#!miles/' + this.options.miles.id;
                     $('#applicationContainer').landlord_miles_show({miles: this.options.miles});
                 }
 

@@ -1,0 +1,29 @@
+<!-- Make into another ejs that can be shared -->
+<span class="pictureSpan">
+    <img src="<%= property.imageLocation %>" height="60px" width="60px"/>
+</span>
+<span class="addressSpan">
+    <%= property.address %>
+</span>
+<span class="mileGraph">
+    <canvas class='graph graph<%= property.id %>' width='150' height='75'></canvas>
+</span>
+
+<div class="milesTable">
+    <table class="table table-striped" id='milesTable'>
+        <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Miles</th>
+        </tr>
+        <%for(var i = 0; i < milesList.length ; i++){ %>
+            <% if(milesList[i].property.id == property.id) { %>
+                <tr <%= milesList[i]%>>
+                <%== $.View('//landlord/miles/mileslist/views/miles.ejs', milesList[i] )%>
+                </tr>
+            <% } %>
+        <%}%>
+    </table>
+
+    <a id='createMilesButton'><button type="button" class="createMilesButton btn btn-primary btn-lg btn-block">Create Miles</button></a>
+</div>

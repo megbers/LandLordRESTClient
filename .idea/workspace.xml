@@ -2,11 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/landlord/miles/mileslist/miles_list_property.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/landlord/rentals/list/views/rentals_available.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/landlord/rentals/list/rentals_available.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/landlord/miles/list/views/miles.ejs" afterPath="$PROJECT_DIR$/src/landlord/miles/mileslist/views/miles.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/landlord/miles/list/views/miles_list.ejs" afterPath="$PROJECT_DIR$/src/landlord/miles/mileslist/views/miles_list.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/create/create.js" afterPath="$PROJECT_DIR$/src/landlord/miles/create/create.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/edit/edit_miles.js" afterPath="$PROJECT_DIR$/src/landlord/miles/edit/edit_miles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/main_menu/views/init.ejs" afterPath="$PROJECT_DIR$/src/landlord/main_menu/views/init.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/create/views/init.ejs" afterPath="$PROJECT_DIR$/src/landlord/miles/create/views/init.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/edit/views/init.ejs" afterPath="$PROJECT_DIR$/src/landlord/miles/edit/views/init.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/landlord.css" afterPath="$PROJECT_DIR$/src/landlord/landlord.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/landlord.js" afterPath="$PROJECT_DIR$/src/landlord/landlord.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/expense/list/list.js" afterPath="$PROJECT_DIR$/src/landlord/expense/list/list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/list/list.js" afterPath="$PROJECT_DIR$/src/landlord/miles/list/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/main_menu/mainMenu.js" afterPath="$PROJECT_DIR$/src/landlord/main_menu/mainMenu.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/list/miles_graph.js" afterPath="$PROJECT_DIR$/src/landlord/miles/list/miles_graph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/list/views/property_list.ejs" afterPath="$PROJECT_DIR$/src/landlord/miles/list/views/property_list.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/list/views/property_miles.ejs" afterPath="$PROJECT_DIR$/src/landlord/miles/list/views/property_miles.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/router/router.js" afterPath="$PROJECT_DIR$/src/landlord/router/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/show/views/show_miles.ejs" afterPath="$PROJECT_DIR$/src/landlord/miles/show/views/show_miles.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/landlord/miles/show/show_miles.js" afterPath="$PROJECT_DIR$/src/landlord/miles/show/show_miles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LandLordRESTClient.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388804184931" ignored="false" />
+    <file path="/miles.css" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388804298411" ignored="false" />
+    <file path="/property_miles.ejs" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388805176206" ignored="false" />
+    <file path="/list.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388823179228" ignored="false" />
+    <file path="/miles_list_property.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388811162245" ignored="false" />
+    <file path="/miles_list.ejs" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388811044226" ignored="false" />
+    <file path="/a.dummy" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388814940627" ignored="false" />
+    <file path="/router.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388821562968" ignored="false" />
+    <file path="/show_miles.ejs" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388809204794" ignored="false" />
+    <file path="/landlord.css" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388809788495" ignored="false" />
+    <file path="/init.ejs" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388821678085" ignored="false" />
+    <file path="/edit_miles.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388814112358" ignored="false" />
+    <file path="/create.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388818521468" ignored="false" />
+    <file path="/show_miles.js" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388819393704" ignored="false" />
+    <file path="/rentals_available.ejs" changelist="88f7ad6a-377a-4d7f-ab82-34a4f9d41b7f" time="1388821970237" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,46 +61,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="init.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landlord/main_menu/views/init.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="11" selection-start="271" selection-end="271" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rentals_available.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landlord/rentals/list/views/rentals_available.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="39" selection-start="132" selection-end="132" vertical-scroll-proportion="-2.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainMenu.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landlord/main_menu/mainMenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="20" selection-start="805" selection-end="925" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="miles_list_property.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landlord/miles/mileslist/miles_list_property.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="18" selection-start="2007" selection-end="2198" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="miles_graph.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/miles_graph.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="list.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="69" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="property_list.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/property_list.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="132" selection-start="332" selection-end="332" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="miles.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/miles.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="54" selection-start="430" selection-end="480" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="miles_graph.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/miles_graph.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="48" selection-start="3332" selection-end="3332" vertical-scroll-proportion="1.8370497" vertical-offset="306" max-vertical-offset="1751">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="property.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/landlord/property/list/views/property.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="214" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221">
+            <state line="52" column="47" selection-start="1970" selection-end="1999" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,45 +118,34 @@
       <file leaf-file-name="property_miles.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/property_miles.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="42" selection-start="178" selection-end="196" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="306">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/landlord/property/list/views/init.ejs">
+      <file leaf-file-name="property_list.ejs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/property_list.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="177" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding>
-                <marker date="1388769149940" expanded="true" signature="60:168" placeholder="{...}" />
-              </folding>
+            <state line="7" column="76" selection-start="276" selection-end="276" vertical-scroll-proportion="0.19626169">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="miles_list.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/miles_list.ejs">
+        <entry file="file://$PROJECT_DIR$/src/landlord/miles/mileslist/views/miles_list.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="136" selection-start="442" selection-end="574" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="391">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/landlord/property/list/list.html">
+      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landlord/router/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/landlord/property/list/list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="81" selection-start="676" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="1037">
+            <state line="50" column="68" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,52 +169,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/landlord/miles/show/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/miles/edit/views/miles.ejs" />
         <option value="$PROJECT_DIR$/src/landlord/miles/edit/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/expense/edit/edit_expense.js" />
         <option value="$PROJECT_DIR$/src/landlord/miles/create/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/miles/list/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/miles/edit/edit_miles.js" />
-        <option value="$PROJECT_DIR$/src/landlord/miles/list/views/miles.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/landlord.js" />
-        <option value="$PROJECT_DIR$/src/landlord/main_menu/mainMenu.js" />
-        <option value="$PROJECT_DIR$/src/landlord/router/router.js" />
-        <option value="$PROJECT_DIR$/src/landlord/property/list/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/settings/settings.js" />
-        <option value="$PROJECT_DIR$/src/landlord/tenant_screening/tenantScreening.js" />
-        <option value="$PROJECT_DIR$/src/landlord/models/header.js" />
-        <option value="$PROJECT_DIR$/src/landlord/property/list/list.js" />
-        <option value="$PROJECT_DIR$/src/landlord/property/create/create.js" />
-        <option value="$PROJECT_DIR$/src/landlord/main_menu/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/header_menu/header.js" />
-        <option value="$PROJECT_DIR$/src/landlord/header_menu/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/header_menu/header.css" />
-        <option value="$PROJECT_DIR$/src/landlord/property/show/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/property/show/show_property.js" />
-        <option value="$PROJECT_DIR$/src/landlord/tenant_screening/views/init.ejs" />
         <option value="$PROJECT_DIR$/src/landlord/miles/create/create.js" />
-        <option value="$PROJECT_DIR$/src/landlord/miles/miles.css" />
+        <option value="$PROJECT_DIR$/src/landlord/miles/edit/edit_miles.js" />
+        <option value="$PROJECT_DIR$/src/landlord/miles/mileslist/miles_list_property.js" />
         <option value="$PROJECT_DIR$/src/landlord/miles/show/show_miles.js" />
-        <option value="$PROJECT_DIR$/src/landlord/miles/show/views/show_miles.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/property/create/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/expense/list/list.js" />
-        <option value="$PROJECT_DIR$/src/landlord/expense/list/views/expense.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/expense/edit/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/expense/create/views/init.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/landlord.css" />
-        <option value="$PROJECT_DIR$/src/landlord/miles/list/views/miles_list.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/miles/list/views/property_miles.ejs" />
+        <option value="$PROJECT_DIR$/src/landlord/rentals/views/rentals_available.ejs" />
+        <option value="$PROJECT_DIR$/src/landlord/rentals/rentals_available.js" />
+        <option value="$PROJECT_DIR$/src/landlord/landlord.js" />
+        <option value="$PROJECT_DIR$/src/landlord/router/router.js" />
+        <option value="$PROJECT_DIR$/src/landlord/rentals/list/rentals_available.js" />
+        <option value="$PROJECT_DIR$/src/landlord/rentals/list/views/rentals_available.ejs" />
+        <option value="$PROJECT_DIR$/src/landlord/main_menu/views/init.ejs" />
+        <option value="$PROJECT_DIR$/src/landlord/main_menu/mainMenu.js" />
         <option value="$PROJECT_DIR$/src/landlord/miles/list/list.js" />
         <option value="$PROJECT_DIR$/src/landlord/miles/list/views/property_list.ejs" />
-        <option value="$PROJECT_DIR$/src/landlord/miles/list/miles_graph.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="946" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -209,7 +219,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemId" value="LandLordAppRESTClient" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,7 +243,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemId" value="LandLordAppRESTClient" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -248,25 +257,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="landlord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemId" value="LandLordAppRESTClient" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -277,10 +268,6 @@
               <option name="myItemId" value="landlord" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="property" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -288,7 +275,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemId" value="LandLordAppRESTClient" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -300,11 +287,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="property" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
+              <option name="myItemId" value="miles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,7 +297,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemId" value="LandLordAppRESTClient" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -326,11 +309,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="property" />
+              <option name="myItemId" value="miles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
+              <option name="myItemId" value="mileslist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LandLordAppRESTClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mileslist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -344,51 +353,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="landlord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="landlord" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="miles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemId" value="LandLordAppRESTClient" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -414,7 +379,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LandLordRESTClient" />
+              <option name="myItemId" value="LandLordAppRESTClient" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -440,24 +405,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="88" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="89" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="88" />
-    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="88" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="/mindtap-code/mindapp-progress/client" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="93" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="887" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="887" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="93" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="89" />
@@ -465,37 +425,33 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="SearchEverywhereHistory" value="&lt;" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/landlord/rentals/views" />
       <recent name="$PROJECT_DIR$/src/twitter" />
       <recent name="$PROJECT_DIR$/src/landlord/images" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/js/thirdparty" />
-      <recent name="$PROJECT_DIR$/js/canjs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/landlord/rentals/list" />
+      <recent name="$PROJECT_DIR$/src/landlord/miles/miles_list/views" />
       <recent name="$PROJECT_DIR$/src/landlord/miles/list" />
       <recent name="$PROJECT_DIR$/src/chart" />
       <recent name="$PROJECT_DIR$/src/google" />
-      <recent name="$PROJECT_DIR$/src/twitter" />
-      <recent name="$PROJECT_DIR$/src/landlord/expense/edit" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="name" value="Dart" />
-      <option name="saveOutputToFile" value="false" />
-      <option name="showConsoleOnStdErr" value="false" />
-      <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -511,15 +467,14 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -552,21 +507,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="946" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27326968" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37286323" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24936816" sideWeight="0.15615141" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18224789" sideWeight="0.94551283" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18186611" sideWeight="0.62713677" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -583,396 +538,171 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
     </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/miles_list.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/expense/edit/edit_expense.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="91" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/edit/edit_miles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="41" selection-start="504" selection-end="504" vertical-scroll-proportion="0.37972972" vertical-offset="8" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/steal/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.3783784" vertical-offset="280" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="740">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jquery/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="740">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jquery/update">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="740">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/changelog.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4012">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/models/property.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/landlord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="34" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.0" vertical-offset="509" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/settings/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="110" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/header_menu/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="79" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.0" vertical-offset="305" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/models/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="347" selection-end="347" vertical-scroll-proportion="0.5322896" vertical-offset="0" max-vertical-offset="511">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/main_menu/mainMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="143" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/property/create/create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/tenant_screening/tenantScreening.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="118" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/landlord/tenant_screening/views/init.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="30" selection-start="989" selection-end="989" vertical-scroll-proportion="0.57271093" vertical-offset="157" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/router/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="63" selection-start="741" selection-end="741" vertical-scroll-proportion="0.29331046" vertical-offset="271" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/main_menu/mainMenu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/main_menu/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="545" selection-end="545" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/header_menu/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/show/show_miles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="305" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/create/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="48" selection-start="251" selection-end="505" vertical-scroll-proportion="0.36624774" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/edit/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/create/create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/show/views/show_miles.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="132" selection-start="441" selection-end="698" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="493">
-          <folding>
-            <marker date="1388778296176" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388778296176" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388778296176" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/property/create/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="23.038462" vertical-offset="599" max-vertical-offset="1156">
-          <folding>
-            <marker date="1388775805344" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/property/show/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="5" selection-start="6" selection-end="6" vertical-scroll-proportion="32.846153" vertical-offset="871" max-vertical-offset="1428">
-          <folding>
-            <marker date="1388775821520" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388775821520" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388775821520" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388775821520" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388775821520" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388775821520" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388775821520" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388775821520" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388775821520" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388775821520" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388775821520" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/property/show/show_property.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="584" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/header_menu/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="63" selection-start="576" selection-end="624" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/models/expense.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/expense/show/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/expense/show/show_expense.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/expense/edit/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="49" selection-start="1036" selection-end="1036" vertical-scroll-proportion="-11.615385" vertical-offset="225" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/expense/list/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="48" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.8250429" vertical-offset="505" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/expense/create/create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="24" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.7375643" vertical-offset="301" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/expense/create/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="12" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.6032316" vertical-offset="174" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/expense/list/views/expense.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="12" selection-start="909" selection-end="909" vertical-scroll-proportion="1.0682226" vertical-offset="0" max-vertical-offset="901">
-          <folding>
-            <marker date="1388779346277" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388779346277" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388779346277" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388779346277" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388779346277" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388779346277" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388779346277" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1388779346277" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/expense/list/views/init.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="12" selection-end="24" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding>
-            <marker date="1388758634159" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/landlord.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="11" selection-start="1085" selection-end="1095" vertical-scroll-proportion="0.35849056" vertical-offset="1049" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/property/list/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/property/list/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="81" selection-start="676" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="1037">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/landlord/property/list/views/init.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="177" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding>
-            <marker date="1388769149940" expanded="true" signature="60:168" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/property/list/views/property.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="214" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221">
+        <state line="8" column="17" selection-start="0" selection-end="317" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/miles.ejs">
+    <entry file="file://$PROJECT_DIR$/src/landlord/landlord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="54" selection-start="430" selection-end="480" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="510">
+        <state line="8" column="27" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/models/miles.js">
+    <entry file="file://$PROJECT_DIR$/src/landlord/property/list/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+        <state line="41" column="27" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/list.js">
+    <entry file="file://$PROJECT_DIR$/src/landlord/rentals/list/rentals_available.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="69" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1462">
+        <state line="25" column="70" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/miles_list.ejs">
+    <entry file="file://$PROJECT_DIR$/src/landlord/rentals/list/views/property.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="136" selection-start="442" selection-end="574" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="391">
+        <state line="7" column="32" selection-start="214" selection-end="214" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/property_list.ejs">
+    <entry file="file://$PROJECT_DIR$/src/landlord/rentals/list/views/rentals_available.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="132" selection-start="332" selection-end="332" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+        <state line="4" column="39" selection-start="132" selection-end="132" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/property_miles.ejs">
+    <entry file="file://$PROJECT_DIR$/src/landlord/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="178" selection-end="196" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="306">
+        <state line="50" column="68" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landlord/main_menu/views/init.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="11" selection-start="271" selection-end="271" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landlord/main_menu/mainMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="20" selection-start="805" selection-end="925" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landlord/miles/mileslist/views/miles_list.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/miles_graph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="48" selection-start="3332" selection-end="3332" vertical-scroll-proportion="1.8370497" vertical-offset="306" max-vertical-offset="1751">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landlord/miles/mileslist/miles_list_property.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="18" selection-start="2007" selection-end="2198" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="47" selection-start="1970" selection-end="1999" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/property_miles.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landlord/miles/list/views/property_list.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="76" selection-start="276" selection-end="276" vertical-scroll-proportion="0.19626169">
           <folding />
         </state>
       </provider>

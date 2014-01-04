@@ -4,8 +4,6 @@ steal( 'jquery/controller',
     'landlord/models',
     'chart/Chart.js')
     .then(
-    //'./views/miles_list.ejs',
-    //'./views/miles.ejs',
     function($){
 
         /**

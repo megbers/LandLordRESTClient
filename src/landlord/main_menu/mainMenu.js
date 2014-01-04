@@ -26,9 +26,9 @@ steal('jquery/controller',
                     this._updateHeader('Main Menu', '');
                     this.element.html(this.view('init') )
                 },
-                '.importExportButton click':function(el) {
-                    console.log('importExportButton');
-                },
+//                '.importExportButton click':function(el) {
+//                    console.log('importExportButton');
+//                },
 //                '.propertySummaryButton click':function(el) {
 //                    window.location.hash = "#!properties";
 //                    //$('#applicationContainer').landlord_property_list();
@@ -40,9 +40,9 @@ steal('jquery/controller',
 //                    window.location.hash = "#!miles";
 //                    //$('#applicationContainer').landlord_miles_list();
 //                },
-                '.rentalsAvailableButton click':function(el) {
-                    console.log('rentalsAvailableButton');
-                },
+//                '.rentalsAvailableButton click':function(el) {
+//                    console.log('rentalsAvailableButton');
+//                },
 //                '.tenantScreeningButton click':function(el) {
 //                    window.location.hash = "#!tenant";
 //                    //$('#applicationContainer').landlord_tenant_screening();

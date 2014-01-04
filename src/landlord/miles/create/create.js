@@ -27,12 +27,12 @@ steal( 'jquery/controller',
             '#createMiles click': function(el, ev) {
                 ev.preventDefault();
                 var miles = el.closest('form').formParams();
-                miles.property = {id: miles.property};
+                miles.property = {id: miles.property, address: $( "#property option:selected" ).text()};
                 new Landlord.Models.Miles(miles).save(this.callback('saved'));
             },
 
-            saved : function(){
-                $('#applicationContainer').landlord_miles_show({property: this.options.property});
+            saved : function(miles, returnedMiles){
+                $('#applicationContainer').landlord_miles_show({miles: returnedMiles});
             }
 
         })

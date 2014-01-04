@@ -1,4 +1,13 @@
+<p>
+    <!-- Make into another ejs that can be shared -->
+    <span class="pictureSpan">
+        <img src="<%= property.imageLocation %>" height="60px" width="60px"/>
+    </span>
 
+    <span class="addressSpan">
+        <%= property.address %>
+    </span>
+</p>
 <p>
     <span class='infoLabel'>Date</span> <br/>
     <% if(typeof milesDate !== 'undefined') {%>
