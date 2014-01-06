@@ -3,7 +3,8 @@ steal( 'jquery/controller',
 	   'jquery/controller/view',
 	   'landlord/models' )
 .then( './views/init.ejs', 
-       './views/person.ejs', 
+       './views/person.ejs',
+       '../person.css',
        function($){
 
 /**
@@ -19,9 +20,23 @@ $.Controller('Landlord.Person.List',
 },
 /** @Prototype */
 {
-	init : function(){
-		this.element.html(this.view('init',Landlord.Models.Person.findAll()) )
-	},
+    init : function(options){
+        this.update(options);
+    },
+
+    update: function(options) {
+        this.options.property = options && options.property ? options.property : this.options.property;
+        if(!this.options.property) {
+            this.element.html(this.view('init',Landlord.Models.Person.findAll()));
+        } else {
+            Landlord.Models.Person.findByProperty({propertyId: this.options.property.id}, this.proxy(this.showPeople));
+        }
+    },
+
+    showPeople: function(people) {
+        this.element.html(this.view('init', people));
+    },
+
 	'.destroy click': function( el ){
 		if(confirm("Are you sure you want to destroy?")){
 			el.closest('.person').model().destroy();

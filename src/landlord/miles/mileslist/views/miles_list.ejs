@@ -1,13 +1,15 @@
 <!-- Make into another ejs that can be shared -->
-<span class="pictureSpan">
-    <img src="<%= property.imageLocation %>" height="60px" width="60px"/>
-</span>
-<span class="addressSpan">
-    <%= property.address %>
-</span>
-<span class="mileGraph">
-    <canvas class='graph graph<%= property.id %>' width='150' height='75'></canvas>
-</span>
+<div class="propertyMilesGraph">
+    <span class="pictureSpan">
+        <img src="<%= property.imageLocation %>" height="60px" width="60px"/>
+    </span>
+    <span class="addressSpan">
+        <%= property.address %>
+    </span>
+    <span class="mileGraph">
+        <canvas class='graph graph<%= property.id %>' width='150' height='75'></canvas>
+    </span>
+</div>
 
 <div class="milesTable">
     <table class="table table-striped" id='milesTable'>

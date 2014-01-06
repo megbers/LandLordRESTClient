@@ -1,5 +1,15 @@
-<%for(var i = 0; i < this.length ; i++){%>
-	<li <%= this[i]%>>
-		<%== $.View('//landlord/person/list/views/person.ejs', this[i] )%>
-	</li>
-<%}%>
+<div class="personTable">
+    <table class="table table-striped" id='persons'>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Type</th>
+        </tr>
+        <%for(var i = 0; i < this.length ; i++){ %>
+        <tr <%= this[i]%>>
+            <%== $.View('//landlord/person/list/views/person.ejs', this[i] )%>
+        </tr>
+        <%}%>
+    </table>
+</div>

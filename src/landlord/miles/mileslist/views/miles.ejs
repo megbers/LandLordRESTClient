@@ -4,7 +4,23 @@
     <%}%>
 </td>
 <td>
-    <% if(typeof milesType !== 'undefined') {%>
+    <%
+    //TODO Maybe move this into the controller;
+    var color = '';
+    if(typeof milesType !== 'undefined') {
+        if(milesType == 'HARDWARE_STORE')
+            color = '#FF0000';
+        else if(milesType == 'RENTAL')
+            color = '#00FF00';
+        else if(milesType == 'OTHER')
+            color = '#FF00FF';
+        else if(milesType == 'BANK')
+            color = '#00FFFF';
+        else if(milesType == 'REALTOR')
+            color = '#FFFF00';
+    %>
+
+    <span style="background-color: <%= color %>">&nbsp;</span>
     <%= milesType %>
     <%}%>
 </td>

@@ -1,3 +1,7 @@
 .graph {
     width: 50px;
 }
+
+.propertyMilesGraph {
+    vertical-align: middle;
+}

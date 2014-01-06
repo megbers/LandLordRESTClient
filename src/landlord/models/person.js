@@ -12,6 +12,24 @@ $.Model('Landlord.Models.Person',
     findAll: "/LandLordWebServices/person/findAll",
     findOne: "/LandLordWebServices/person/find/{id}",
 
+    findByProperty: function(params, success, error) {
+        $.ajax({
+            url: '/LandLordWebServices/person/findByProperty/' + params.propertyId,
+            type: 'GET',
+            dataType: 'json',
+            contentType: 'application/json',
+            success: function(persons) {
+                var personArray = [];
+                for(var i=0; i < persons.length; i++) {
+                    personArray.push(new Landlord.Models.Person(persons[i]));
+                }
+                success(personArray);
+            },
+            error: error,
+            fixture: false
+        });
+    },
+
     create: function(params, success, error) {
         $.ajax({
             url: '/LandLordWebServices/person',

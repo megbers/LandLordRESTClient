@@ -1,15 +1,17 @@
-<span class="pictureSpan">
-    <img src="<%= imageLocation %>" height="60px" width="60px"/>
-</span>
+<div class="propertyMilesGraph">
+    <span class="pictureSpan">
+        <img src="<%= imageLocation %>" height="60px" width="60px"/>
+    </span>
 
-<span class="addressSpan">
-    <%= address %>
-</span>
+    <span class="addressSpan">
+        <%= address %>
+    </span>
 
-<span class="milesDiven totalMiles<%=id%>">
+    <span class="milesDiven totalMiles<%=id%>">
 
-</span>
+    </span>
 
-<span class="mileGraph">
-    <canvas class='graph graph<%= id %>' width='150' height='75'></canvas>
-</span>
+    <span class="mileGraph">
+        <canvas class='graph graph<%= id %>' width='150' height='75'></canvas>
+    </span>
+</div>

@@ -39,7 +39,7 @@ steal( 'jquery/controller',
                 },
 
                 _showChart: function() {
-                    this.chart = new Chart(this.context).Pie(this.graphData);
+                    this.chart = new Chart(this.context).Pie(this.graphData, {animation: false});
                 },
 
                 _agragateData: function(milesList) {
