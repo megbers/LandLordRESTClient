@@ -22,7 +22,7 @@ steal( 'jquery/controller',
                     this.update();
                 },
                 update:function() {
-                    $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Available Properties',backUrl:'#!'}});
+                    $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Available Properties',backUrl:'#!main'}});
                     this.element.html(this.view('rentals_available.ejs',Landlord.Models.Property.findAll()) );
                 }
 

@@ -24,7 +24,7 @@ $.Controller('Landlord.Person.List',
 		this.update(options);
 	},
     update: function(options) {
-        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Manage People',backUrl:'#!'}});
+        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Manage People',backUrl:'#!main'}});
 
         this.options.property = options && options.property ? options.property : this.options.property;
         if(!this.options.property) {

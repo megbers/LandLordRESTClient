@@ -63,8 +63,16 @@ steal( 'jquery/controller',
                     $('#applicationContainer').landlord_person_list();
                 },
 
-                'route' : function() {
+                'login route' : function(data) {
+                    $('#applicationContainer').landlord_user_login();
+                },
+
+                'main route' : function() {
                     $('#applicationContainer').landlord_main_menu();
+                },
+
+                'route' : function() {
+                    $('#applicationContainer').landlord_user_login();
                 }
 
             });

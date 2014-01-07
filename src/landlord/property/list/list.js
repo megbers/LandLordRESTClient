@@ -24,7 +24,7 @@ $.Controller('Landlord.Property.List',
         this.update();
 	},
     update:function() {
-        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Property Summary',backUrl:'#!'}});
+        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Property Summary',backUrl:'#!main'}});
         this.element.html(this.view('init',Landlord.Models.Property.findAll()) );
     },
 	'.destroyProperty click': function( el ){

@@ -22,7 +22,7 @@ steal('jquery/controller',
                     this.update();
                 },
                 update:function(options) {
-                    $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Tenant Screening',backUrl:'#!'}});
+                    $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Tenant Screening',backUrl:'#!main'}});
                     this.element.html(this.view('init', {}) );
                 }
 

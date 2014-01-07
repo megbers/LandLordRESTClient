@@ -26,7 +26,7 @@ steal( 'jquery/controller',
                 },
 
                 update: function(options) {
-                    $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Miles Driven',backUrl:'#!'}});
+                    $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Miles Driven',backUrl:'#!main'}});
 
                     this.propertyList = Landlord.Models.Property.findAll();
                     this.milesList = Landlord.Models.Miles.findAll();

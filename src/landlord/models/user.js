@@ -22,11 +22,24 @@ $.Model('Landlord.Models.User',
             success: this.proxy([success]),
             error: error,
             fixture: false
-        })
+        });
     },
 
     destroy: "/LandLordWebServices/users",
- 	update : "/LandLordWebServices/users"
+ 	update : "/LandLordWebServices/users",
+
+    login: function(params, success, error) {
+        $.ajax({
+            url: '/LandLordWebServices/users/login',
+            type: 'POST',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: JSON.stringify(params),
+            success: this.proxy([success]),
+            error: error,
+            fixture: false
+        });
+    }
 },
 /* @Prototype */
 {});
