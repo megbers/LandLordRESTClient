@@ -19,9 +19,13 @@ $.Controller('Landlord.Person.List',
 },
 /** @Prototype */
 {
-	init : function(){
-		this.element.html(this.view('init',Landlord.Models.Person.findAll()) )
+	init : function(options){
+		this.update(options);
 	},
+    update: function(options) {
+        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Manage People',backUrl:'#!'}});
+        this.element.html(this.view('init',Landlord.Models.Person.findAll()) )
+    },
 	'.destroy click': function( el ){
 		if(confirm("Are you sure you want to destroy?")){
 			el.closest('.person').model().destroy();
