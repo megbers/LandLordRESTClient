@@ -20,11 +20,12 @@ $.Controller('Landlord.Person.List',
 },
 /** @Prototype */
 {
-    init : function(options){
-        this.update(options);
-    },
-
+	init : function(options){
+		this.update(options);
+	},
     update: function(options) {
+        $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'Manage People',backUrl:'#!'}});
+
         this.options.property = options && options.property ? options.property : this.options.property;
         if(!this.options.property) {
             this.element.html(this.view('init',Landlord.Models.Person.findAll()));
