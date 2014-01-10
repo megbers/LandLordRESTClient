@@ -1,8 +1,8 @@
-<form>
-    <p>
+<form role="form">
+    <div class="form-group">
         <!-- TODO Make this list come from the database -->
         <label for='milesType'>Miles Type</label> </br>
-        <select id='milesType' name='milesType'>
+        <select id='milesType' name='milesType' class="form-control">
             <option value=''></option>
             <option value='RENTAL'>Rental</option>
             <option value='HARDWARE_STORE'>Hardware Store</option>
@@ -10,27 +10,29 @@
             <option value='REALTOR'>Realtor</option>
             <option value='OTHER'>Other</option>
         </select>
-    </p>
+    </div>
 
-    <p>
+    <div class="form-group">
         <label for='property'>Property</label> </br>
-        <select id='property' name='property'>
+        <select id='property' name='property' class="form-control">
             <option value=''></option>
             <%for(var i = 0; i < this.properties.length ; i++){ %>
             <option value='<%= this.properties[i].id %>'><%= this.properties[i].address %></option>
             <%}%>
         </select>
-    </p>
+    </div>
 
-    <p>
+    <div class="form-group">
         <label for='milesDate'>Date</label> <br/>
-        <input type='date' name='milesDate' id='milesDate'/>
-    </p>
+        <input type='date' name='milesDate' id='milesDate' class="form-control"/>
+    </div>
 
-    <p>
+    <div class="form-group">
         <label for='numberOfMiles'>Number Of Miles</label> <br/>
-        <input type='number' name='numberOfMiles' id='numberOfMiles'/>
-    </p>
+        <input type='number' name='numberOfMiles' id='numberOfMiles' class="form-control"/>
+    </div>
 
-    <a id='createMiles'><button type="button" class="buttonsInList btn btn-primary btn-lg btn-block">Create</button></a>
+    <div class="form-group">
+        <a id='createMiles'><button type="button" class="buttonsInList btn btn-primary btn-lg btn-block">Create</button></a>
+    </div>
 </form>

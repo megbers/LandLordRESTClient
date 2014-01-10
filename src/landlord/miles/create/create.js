@@ -3,7 +3,7 @@ steal( 'jquery/controller',
 'jquery/dom/form_params',
 'jquery/controller/view',
 'landlord/models' )
-.then('./views/init.ejs', function($){
+.then('./views/create_miles.ejs', function($){
 
     /**
      * @class Landlord.Miles.Create
@@ -21,7 +21,7 @@ steal( 'jquery/controller',
             update: function() {
                 $('#headerMenuContainer').landlord_header_menu({headerDetails:{name:'New Miles', backUrl:'#!miles'}});
                 var properties = Landlord.Models.Property.findAll();
-                this.element.html(this.view('init', {properties: properties}));
+                this.element.html(this.view('create_miles.ejs', {properties: properties}));
             },
 
             '#createMiles click': function(el, ev) {

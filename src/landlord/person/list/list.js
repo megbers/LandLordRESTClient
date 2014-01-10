@@ -2,7 +2,7 @@ steal( 'jquery/controller',
 	   'jquery/view/ejs',
 	   'jquery/controller/view',
 	   'landlord/models' )
-.then( './views/init.ejs', 
+.then( './views/person_list.ejs',
        './views/person.ejs',
        '../person.css',
        function($){
@@ -28,7 +28,7 @@ $.Controller('Landlord.Person.List',
 
         this.options.property = options && options.property ? options.property : this.options.property;
         if(!this.options.property) {
-            this.element.html(this.view('init',Landlord.Models.Person.findAll()));
+            this.element.html(this.view('person_list.ejs',Landlord.Models.Person.findAll()));
         } else {
             Landlord.Models.Person.findByProperty({propertyId: this.options.property.id}, this.proxy(this.showPeople));
         }
@@ -43,12 +43,20 @@ $.Controller('Landlord.Person.List',
 			el.closest('.person').model().destroy();
 		}
 	},
+
+    '#createPersonButton click':function(el, ev) {
+        window.location.hash = '#!person/add';
+        $('#applicationContainer').landlord_person_create();
+    },
+
 	"{Landlord.Models.Person} destroyed" : function(Person, ev, person) {
 		person.elements(this.element).remove();
 	},
+
 	"{Landlord.Models.Person} created" : function(Person, ev, person){
 		this.element.append(this.view('init', [person]))
 	},
+
 	"{Landlord.Models.Person} updated" : function(Person, ev, person){
 		person.elements(this.element)
 		      .html(this.view('person', person) );

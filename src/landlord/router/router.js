@@ -63,6 +63,10 @@ steal( 'jquery/controller',
                     $('#applicationContainer').landlord_person_list();
                 },
 
+                'person/add route' : function(data) {
+                    $('#applicationContainer').landlord_person_create();
+                },
+
                 'login route' : function(data) {
                     $('#applicationContainer').landlord_user_login();
                 },
