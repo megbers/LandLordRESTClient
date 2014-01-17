@@ -20,6 +20,7 @@ steal(
     'landlord/property/show/show_property.js',
     'landlord/expense/show/show_expense.js',
     'landlord/expense/edit/edit_expense.js',
+    'landlord/calendar/main/main.js',
     'landlord/main_menu/mainMenu.js',
     'landlord/settings/settings.js',
     'landlord/header_menu/header.js',

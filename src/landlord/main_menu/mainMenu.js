@@ -24,7 +24,8 @@ steal('jquery/controller',
                 },
                 update:function() {
                     this._updateHeader('Main Menu', '');
-                    this.element.html(this.view('init') )
+                    this.element.html(this.view('init') );
+                    $('#calendarContainer').landlord_calendar_main();
                 },
 //                '.importExportButton click':function(el) {
 //                    console.log('importExportButton');

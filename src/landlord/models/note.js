@@ -1,20 +1,20 @@
 steal('jquery/model', function(){
 
     /**
-     * @class Landlord.Models.Miles
+     * @class Landlord.Models.Note
      * @parent index
      * @inherits jQuery.Model
-     * Wraps backend person services.
+     * Wraps backend note services.
      */
-    $.Model('Landlord.Models.Miles',
+    $.Model('Landlord.Models.Note',
         /* @Static */
         {
-            findAll: "/LandLordWebServices/miles/findAll",
-            findOne: "/LandLordWebServices/miles/find/{id}",
+            findAll: "/LandLordWebServices/note/findAll",
+            findOne: "/LandLordWebServices/note/find/{id}",
 
             create: function(params, success, error) {
                 $.ajax({
-                    url: '/LandLordWebServices/miles',
+                    url: '/LandLordWebServices/note',
                     type: 'PUT',
                     dataType: 'json',
                     contentType: 'application/json',
@@ -25,8 +25,8 @@ steal('jquery/model', function(){
                 })
             },
 
-            destroy: "/LandLordWebServices/miles",
-            update : "POST /LandLordWebServices/miles"
+            destroy: "/LandLordWebServices/note",
+            update : "POST /LandLordWebServices/note"
         },
         /* @Prototype */
         {});

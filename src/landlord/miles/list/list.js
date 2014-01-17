@@ -33,7 +33,9 @@ steal( 'jquery/controller',
                     this.element.html(this.view('property_list.ejs', this.propertyList));
 
                     //TODO Need to implement findByProperty on the miles model and server.
-                    //Landlord.Models.Miles.findByProperty({propertyId: this.options.property.id}, this.proxy(this.showMiles));
+                    //TODO Create a promise to do both
+                    //Landlord.Models.Miles.findAll({}, this.proxy(this.showAllMiles));
+                    //Landlord.Models.Miles.findAll({}, this.proxy(this.showAllMiles));
 
                     var that = this;
                     setTimeout(function() {
