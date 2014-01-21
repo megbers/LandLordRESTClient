@@ -2,8 +2,9 @@ steal( 'jquery/controller',
     'jquery/view/ejs',
     'jquery/dom/form_params',
     'jquery/controller/view',
-    'landlord/models' )
-    .then('./views/login.ejs', function($){
+    'landlord/models',
+    'landlord/modal/landlord_modal.js')
+    .then('./views/login.ejs', './views/error_modal.ejs', function($){
 
         /**
          * @class Landlord.User.Login
@@ -32,7 +33,13 @@ steal( 'jquery/controller',
                     if(user.valid) {
                         window.location.hash = "#!main";
                     } else {
-                        alert("Login Failed");
+                        $('#modal').landlord_modal({
+                            passedInView: this.view('//landlord/user/login/views/error_modal.ejs'),
+                            ok: function(ev){
+                                ev.preventDefault();
+                                //ev.resume();
+                            }
+                        });
                     }
                 }
             })

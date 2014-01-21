@@ -7,7 +7,7 @@ steal( 'jquery/controller',
     'fullcalendar/fullcalendar/fullcalendar.min.js',
     'fullcalendar/fullcalendar/fullcalendar.css',
     './views/calendar.ejs',
-    './views/cell.ejs',
+    './views/note_modal.ejs',
     '../calendar.css',
     function($){
 
@@ -34,8 +34,6 @@ steal( 'jquery/controller',
                 },
 
                 createCalendar: function(noteList) {
-
-
                     $('#calendar').fullCalendar({
                         header: {
                             left: 'prevYear,prev',
@@ -44,8 +42,26 @@ steal( 'jquery/controller',
                         },
                         editable: false,
                         weekMode: 'variable',
-                        events: this._convertNotesToEvents(noteList)
+                        events: this._convertNotesToEvents(noteList),
+                        eventClick: this._handleEventClick,
+                        dayClick:this._handleDayClick
                     });
+                },
+
+                _handleEventClick: function(calEvent, jsEvent, view) {
+                    console.log(calEvent);
+                    $('#modal').landlord_modal({
+                        //TODO, there has to be a better way to get a reference to the view method on controllers
+                        passedInView: $("#calendarContainer").controller().view('//landlord/calendar/main/views/note_modal.ejs', calEvent),
+                        ok: function(ev){
+                            ev.preventDefault();
+                            //ev.resume();
+                        }
+                    });
+                },
+
+                _handleDayClick: function(date, allDay, jsEvent, view ) {
+                    console.log(date, allDay, jsEvent, view);
                 },
 
                 _convertNotesToEvents: function(noteList) {
@@ -54,7 +70,11 @@ steal( 'jquery/controller',
                         var parts = noteList[i].date.split('-');
                         //y, m, d
                         var date = new Date(parts[2], parts[0]-1, parts[1]);
-                        events[i] = {title: noteList[i].text, start: date}
+                        events[i] = {
+                            id: noteList[i].id,
+                            title: noteList[i].text,
+                            start: date
+                        }
                     }
                     return events;
                 }
