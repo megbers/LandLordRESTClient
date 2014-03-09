@@ -9,12 +9,12 @@ steal('jquery/model', function(){
     $.Model('Landlord.Models.Note',
         /* @Static */
         {
-            findAll: "/LandLordWebServices/note/findAll",
-            findOne: "/LandLordWebServices/note/find/{id}",
+            findAll: hostUrl + "/LandLordWebServices/note/findAll",
+            findOne: hostUrl + "/LandLordWebServices/note/find/{id}",
 
             create: function(params, success, error) {
                 $.ajax({
-                    url: '/LandLordWebServices/note',
+                    url: hostUrl + '/LandLordWebServices/note',
                     type: 'PUT',
                     dataType: 'json',
                     contentType: 'application/json',
@@ -25,8 +25,8 @@ steal('jquery/model', function(){
                 })
             },
 
-            destroy: "/LandLordWebServices/note",
-            update : "POST /LandLordWebServices/note"
+            destroy: hostUrl + "/LandLordWebServices/note",
+            update : "POST " + hostUrl + "/LandLordWebServices/note"
         },
         /* @Prototype */
         {});

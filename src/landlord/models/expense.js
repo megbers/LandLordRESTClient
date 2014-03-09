@@ -9,12 +9,12 @@ steal('jquery/model', function(){
 $.Model('Landlord.Models.Expense',
 /* @Static */
 {
-    findAll: "/LandLordWebServices/expense/findAll",
-    findOne: "/LandLordWebServices/expense/find/{id}",
+    findAll: hostUrl + "/LandLordWebServices/expense/findAll",
+    findOne: hostUrl + "/LandLordWebServices/expense/find/{id}",
 
     findByProperty: function(params, success, error) {
         $.ajax({
-            url: '/LandLordWebServices/expense/findByProperty/' + params.propertyId,
+            url: hostUrl + '/LandLordWebServices/expense/findByProperty/' + params.propertyId,
             type: 'GET',
             dataType: 'json',
             contentType: 'application/json',
@@ -32,7 +32,7 @@ $.Model('Landlord.Models.Expense',
 
     create: function(params, success, error) {
         $.ajax({
-            url: '/LandLordWebServices/expense',
+            url: hostUrl + '/LandLordWebServices/expense',
             type: 'PUT',
             dataType: 'json',
             contentType: 'application/json',
@@ -43,8 +43,8 @@ $.Model('Landlord.Models.Expense',
         });
     },
 
-    destroy: "/LandLordWebServices/expense",
-    update: "POST /LandLordWebServices/expense"
+    destroy: hostUrl + "/LandLordWebServices/expense",
+    update: "POST " + hostUrl + "/LandLordWebServices/expense"
 },
 /* @Prototype */
 {});

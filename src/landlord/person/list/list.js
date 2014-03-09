@@ -35,7 +35,7 @@ $.Controller('Landlord.Person.List',
     },
 
     showPeople: function(people) {
-        this.element.html(this.view('init', people));
+        this.element.html(this.view('person_list.ejs', people));
     },
 
 	'.destroy click': function( el ){

@@ -31,6 +31,11 @@ steal( 'jquery/controller',
                     //TODO Need to set the cookie
                     // Set the username and password to local storage so we dont need to ask the user again
                     if(user.valid) {
+                        //TODO Find a better way to do this ASAP!
+                        $.ajaxSetup({
+                            processData : false,
+                            headers: {'userId': user.user.email}
+                        });
                         window.location.hash = "#!main";
                     } else {
                         $('#modal').landlord_modal({

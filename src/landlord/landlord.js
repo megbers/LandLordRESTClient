@@ -1,3 +1,5 @@
+var hostUrl = "http://192.168.2.15:8080";
+
 steal(
 	'./landlord.css', 			// application CSS file
 	'./models/models.js',		// steals all your models
@@ -59,4 +61,5 @@ steal(
 //        $('#headerMenuContainer').landlord_header_menu();
 //        $('#applicationContainer').landlord_main_menu();
         $('#applicationContainer').landlord_user_login();
+
 })
